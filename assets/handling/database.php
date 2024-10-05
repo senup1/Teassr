@@ -4,7 +4,7 @@ define('DB_USER', 'sql5735451');
 define('DB_PASS', 'BTVjiH3FmS');
 define('DB_NAME', 'sql5735451');
 //https://www.freesqldatabase.com/account/
-//e
+//git checkout main
 
 $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
