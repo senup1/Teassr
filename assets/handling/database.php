@@ -1,8 +1,8 @@
 <?php
-	define('DB_HOST', 'localhost');
-	define('DB_USER', 'teassrDatabaseHandling');
-	define('DB_PASS', 'teassrDatabaseHandling');
-	define('DB_NAME', 'teassrDev');
+	define('DB_HOST', 'sql110.infinityfree.com');
+	define('DB_USER', 'if0_37127683');
+	define('DB_PASS', 'SJB56www');
+	define('DB_NAME', 'if0_37127683_Teassr');
 
 	$conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
