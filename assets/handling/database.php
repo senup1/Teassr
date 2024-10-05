@@ -1,5 +1,5 @@
 <?php
-	define('DB_HOST', 'sql160110.byetcluster.com');
+	define('DB_HOST', 'sql160110.byetcluster.com:3306');
 	define('DB_USER', 'if0_37127683');
 	define('DB_PASS', 'SJB56www');
 	define('DB_NAME', 'if0_37127683_Teassr');
