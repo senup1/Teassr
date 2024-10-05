@@ -3,7 +3,7 @@ define('DB_HOST', 'sql5.freesqldatabase.com');
 define('DB_USER', 'sql5735451');
 define('DB_PASS', 'BTVjiH3FmS');
 define('DB_NAME', 'sql5735451');
-//e
+//https://www.freesqldatabase.com/account/
 
 $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
