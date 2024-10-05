@@ -1,8 +1,8 @@
 <?php
-define('DB_HOST', 'teassr-teassr.f.aivencloud.com');
-define('DB_USER', 'avnadmin');
-define('DB_PASS', 'AVNS_lynYZp2r1ezjPYQuoNT');
-define('DB_NAME', 'defaultdb');
+define('DB_HOST', 'sql5.freesqldatabase.com');
+define('DB_USER', 'sql5735451');
+define('DB_PASS', 'BTVjiH3FmS');
+define('DB_NAME', 'sql5735451');
 //e
 
 $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
