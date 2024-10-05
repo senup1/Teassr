@@ -1,32 +1,33 @@
 /*Global*/
-:root{
- --mainButtonColor: #1e90ff;
- --mainBackgroundColor: #20252e;
+:root {
+	--mainButtonColor: #1e90ff;
+	--mainBackgroundColor: #20252e;
 }
 
-*{
+* {
 	padding: 0px;
 	margin: 0px;
 	box-sizing: border-box;
 	font-family: 'Roboto', Helvetica, sans-serif;
 }
 
-html, body{
+html,
+body {
 	height: 100%;
 }
 
-body{
+body {
 	font-family: 'Roboto', Helvetica, sans-serif;
 	background-color: var(--mainBackgroundColor);
 	color: #ffffff;
 	font-weight: 300;
 }
 
-ul{
+ul {
 	list-style: none;
 }
 
-button{
+button {
 	border: none;
 	background-color: transparent;
 	background-color: var(--mainButtonColor);
@@ -35,57 +36,64 @@ button{
 	padding: 4px 10px;
 
 }
-button:hover{
+
+button:hover {
 	color: #1ea0fa;
 }
 
-a{
+a {
 	text-decoration: none;
 	color: #8D37D4;
 	font-weight: bold;
 }
-a:hover{
+
+a:hover {
 	color: #1D80EC;
 }
 
-input{
-	outline: none;
-}
-input:focus{
+input {
 	outline: none;
 }
 
-.container{
+input:focus {
+	outline: none;
+}
+
+.container {
 	max-width: 100%;
 	margin: 0 auto;
 }
 
-.hr{
-	border-bottom:1px solid gray;
+.hr {
+	border-bottom: 1px solid gray;
 }
 
 /*MP*/
 /*MP left and right*/
-#MP{
+#MP {
 	height: 92%;
 }
-#MP .container{
+
+#MP .container {
 	height: 100%;
 	display: flex;
 
 }
-#MP .container .MPItem{
+
+#MP .container .MPItem {
 	display: flex;
 }
+
 /*MP left*/
-#MP .container .MPItem:nth-of-type(1){
+#MP .container .MPItem:nth-of-type(1) {
 	flex: 1 1 40%;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 }
+
 /*MP right*/
-#MP .container .MPItem:nth-of-type(2){
+#MP .container .MPItem:nth-of-type(2) {
 	flex: 1 1 60%;
 	align-items: center;
 	text-align: center;
@@ -95,16 +103,18 @@ input:focus{
 }
 
 /*MP left subitems*/
-#MP .container .MPItem .MPSubItem{
+#MP .container .MPItem .MPSubItem {
 	margin: 10px auto;
 	width: 380px;
 }
-#MP .container .MPItem .MPSubItem button{
+
+#MP .container .MPItem .MPSubItem button {
 	width: 380px;
 	font-size: 18px;
 	padding: 10px 30px;
 }
-#MP .container .MPItem .MPSubItem button:hover{
+
+#MP .container .MPItem .MPSubItem button:hover {
 	width: 378;
 	padding: 8px 30px;
 	border: 2px solid var(--mainButtonColor);
@@ -112,7 +122,7 @@ input:focus{
 
 }
 
-#MP .container .MPItem .MPSubItem p{
+#MP .container .MPItem .MPSubItem p {
 	font-size: 12px;
 	text-align: center;
 	width: 380px;
@@ -121,23 +131,26 @@ input:focus{
 
 
 /*Dash Page*/
-#dashNav{
+#dashNav {
 	position: fixed;
 	border: 1px solid blue;
 }
-#dashNav .container{
+
+#dashNav .container {
 	display: flex;
 	flex-direction: column;
 	align-items: left;
 	justify-content: center;
 	border: 1px solid yellow;
 }
-#dashNav .container .DNItem{
+
+#dashNav .container .DNItem {
 	width: 240px;
 	border-bottom: 1px solid blue;
 
 }
-#dashNav .container .DNItem button{
+
+#dashNav .container .DNItem button {
 	padding: 2px;
 	padding-left: 10px;
 	margin: 0px;
@@ -146,57 +159,68 @@ input:focus{
 	text-align: left;
 
 }
-#dashNav .container #DNItems{
+
+#dashNav .container #DNItems {
 	display: none;
 }
 
-#dashBody .container{
+#dashBody .container {
 	display: flex;
 	justify-content: center;
 }
-#dashBody .container .DBItem{
+
+#dashBody .container .DBItem {
 	height: 400px;
 	/*width: 100px;*/
-	border: 1px dashed; orange;
+	border: 1px dashed orange;
 }
-#dashBody .container .DBItem:nth-of-type(1){
+
+#dashBody .container .DBItem:nth-of-type(1) {
 	flex: 1 100 204px;
 	/*width: 17%;*/
 }
-#dashBody .container .DBItem:nth-of-type(2){
+
+#dashBody .container .DBItem:nth-of-type(2) {
 	flex: 1 1 612px;
 	/*width: 51%;*/
 }
-#dashBody .container .DBItem:nth-of-type(3){
+
+#dashBody .container .DBItem:nth-of-type(3) {
 	flex: 1 1 180px;
 	/*width: 15%;*/
 }
-#dashBody .container .DBItem:nth-of-type(4){
+
+#dashBody .container .DBItem:nth-of-type(4) {
 	flex: 1 100 204px;
 	/*width: 17%;*/
 }
-@media(max-width: 940px){
-	#dashBody .container .DBItem:nth-of-type(1){
+
+@media(max-width: 940px) {
+	#dashBody .container .DBItem:nth-of-type(1) {
 		display: none;
 	}
-	#dashBody .container .DBItem:nth-of-type(4){
+
+	#dashBody .container .DBItem:nth-of-type(4) {
 		display: none;
 	}
 }
 
 /*posts*/
-#postSection{
+#postSection {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-#postSection .postItem .postTitle{
+
+#postSection .postItem .postTitle {
 	font-size: 20px;
 }
-#postSection .postItem .postImg{
+
+#postSection .postItem .postImg {
 	width: 300px;
 }
-#postSection .postItem:nth-of-type(1){
+
+#postSection .postItem:nth-of-type(1) {
 	align-self: center;
 }
 
@@ -206,7 +230,7 @@ input:focus{
 
 /*Modals*/
 /*login modal*/
-#loginModal{
+#loginModal {
 	z-index: 1000;
 	left: 0;
 	top: 0;
@@ -219,7 +243,8 @@ input:focus{
 	position: fixed;
 
 }
-#loginModal .container{
+
+#loginModal .container {
 	background-color: #393939;
 	color: #000000;
 	width: 420px;
@@ -229,38 +254,47 @@ input:focus{
 	display: flex;
 	flex-direction: column;
 }
-#loginModal .container .LMItem{
+
+#loginModal .container .LMItem {
 	margin-bottom: 16px;
 }
-#loginModal .container .LMItem:nth-of-type(1){
+
+#loginModal .container .LMItem:nth-of-type(1) {
 	align-self: end;
 }
-#loginModal .container .LMItem:nth-of-type(2){
+
+#loginModal .container .LMItem:nth-of-type(2) {
 	align-self: center;
 }
-#loginModal .container .LMItem:nth-of-type(3){
+
+#loginModal .container .LMItem:nth-of-type(3) {
 	align-self: center;
 }
-#loginModal .container .LMItem:nth-of-type(5){
+
+#loginModal .container .LMItem:nth-of-type(5) {
 	align-self: center;
 }
-#loginModal .container button{
+
+#loginModal .container button {
 	padding: 2px;
 	margin-right: 2px;
 	background: none;
 	color: #ffffff;
 }
-#loginModal .container button:hover{
+
+#loginModal .container button:hover {
 	color: #1ea0fa;
 }
-#loginModal .container #LMButton{
+
+#loginModal .container #LMButton {
 	background-color: var(--mainButtonColor);
 	width: 320px;
 	padding: 6px 0px;
 	border-radius: 8px;
 	font-weight: bold;
 }
-#loginModal .container #LMButton:hover{
+
+#loginModal .container #LMButton:hover {
 	width: 318;
 	padding: 2px 18px;
 	border: 2px solid var(--mainButtonColor);
@@ -268,12 +302,14 @@ input:focus{
 	color: #1ea0fa;
 
 }
-#loginModal .container a{
+
+#loginModal .container a {
 	font-size: 15px;
 	margin-left: 33px;
 	text-decoration: underline;
 }
-#loginModal .container form input{
+
+#loginModal .container form input {
 	background: transparent;
 	color: #ffffff;
 	width: 320px;
@@ -283,7 +319,8 @@ input:focus{
 	margin-top: 16px;
 	font-size: 17px;
 }
-#loginModal .container form input:focus{
+
+#loginModal .container form input:focus {
 	border: 1px solid cyan;
 }
 
@@ -291,7 +328,7 @@ input:focus{
 
 /*sign up modal*/
 /*Modals*/
-#signUpModal{
+#signUpModal {
 	z-index: 999;
 	left: 0;
 	top: 0;
@@ -304,7 +341,8 @@ input:focus{
 	position: fixed;
 
 }
-#signUpModal .container{
+
+#signUpModal .container {
 	background-color: #393939;
 	color: #000000;
 	width: 420px;
@@ -314,38 +352,47 @@ input:focus{
 	display: flex;
 	flex-direction: column;
 }
-#signUpModal .container .SUMItem{
+
+#signUpModal .container .SUMItem {
 	margin-bottom: 16px;
 }
-#signUpModal .container .SUMItem:nth-of-type(1){
+
+#signUpModal .container .SUMItem:nth-of-type(1) {
 	align-self: end;
 }
-#signUpModal .container .SUMItem:nth-of-type(2){
+
+#signUpModal .container .SUMItem:nth-of-type(2) {
 	align-self: center;
 }
-#signUpModal .container .SUMItem:nth-of-type(3){
+
+#signUpModal .container .SUMItem:nth-of-type(3) {
 	align-self: center;
 }
-#signUpModal .container .SUMItem:nth-of-type(5){
+
+#signUpModal .container .SUMItem:nth-of-type(5) {
 	align-self: center;
 }
-#signUpModal .container button{
+
+#signUpModal .container button {
 	padding: 2px;
 	margin-right: 2px;
 	background: none;
 	color: #ffffff;
 }
-#signUpModal .container button:hover{
+
+#signUpModal .container button:hover {
 	color: #1ea0fa;
 }
-#signUpModal .container #SUMButton{
+
+#signUpModal .container #SUMButton {
 	background-color: var(--mainButtonColor);
 	width: 320px;
 	padding: 6px 0px;
 	border-radius: 8px;
 	font-weight: bold;
 }
-#signUpModal .container #SUMButton:hover{
+
+#signUpModal .container #SUMButton:hover {
 	width: 318;
 	padding: 2px 18px;
 	border: 2px solid var(--mainButtonColor);
@@ -353,12 +400,14 @@ input:focus{
 	color: #1ea0fa;
 
 }
-#signUpModal .container a{
+
+#signUpModal .container a {
 	font-size: 15px;
 	margin-left: 33px;
 	text-decoration: underline;
 }
-#signUpModal .container form input{
+
+#signUpModal .container form input {
 	background: transparent;
 	color: #ffffff;
 	width: 320px;
@@ -368,13 +417,14 @@ input:focus{
 	margin-top: 16px;
 	font-size: 17px;
 }
-#signUpModal .container form input:focus{
+
+#signUpModal .container form input:focus {
 	border: 1px solid cyan;
 }
 
 
 
-#signUpModal .container .SUMItem #PRSection{
+#signUpModal .container .SUMItem #PRSection {
 	font-size: 15px;
 	display: none;
 	color: red;
@@ -387,28 +437,31 @@ input:focus{
 
 
 /*Footer*/
-#mainFooter{
+#mainFooter {
 	border-top: 1px solid gray;
 	height: 8%;
 	width: 100%;
 }
-#mainFooter .container{
+
+#mainFooter .container {
 	height: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-#mainFooter .container .footerItem{
+
+#mainFooter .container .footerItem {
 	margin-left: 18px;
 	font-size: 16px;
 	font-weight: bold;
 }
 
-@media(max-height: 400px){
-	#mainFooter{
+@media(max-height: 400px) {
+	#mainFooter {
 		position: relative;
 	}
-	#mainFooter .container{
+
+	#mainFooter .container {
 		position: absolute;
 		bottom: 0px;
 		background-color: #20252e;
@@ -419,7 +472,7 @@ input:focus{
 }
 
 /*Logo*/
-.logo{
+.logo {
 	height: 60px;
 	border-radius: 8px;
 }
@@ -428,6 +481,6 @@ input:focus{
 
 
 /*miscellaneous*/
-#matchPass{
+#matchPass {
 	display: none;
 }
