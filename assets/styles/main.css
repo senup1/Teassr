@@ -306,6 +306,7 @@ textarea:focus {
 #suggestSection {
 	font-size: 15px;
 	height: 100%;
+	margin-left: 25px;
 }
 
 #suggestSection #suggestSectionTitle {
@@ -331,7 +332,8 @@ textarea:focus {
 	border-radius: 12px;
 
 }
-#suggestSection .container .suggestItem .suggestSubItem{
+
+#suggestSection .container .suggestItem .suggestSubItem {
 	padding: 4px;
 }
 
