@@ -278,7 +278,7 @@ textarea:focus {
 
 #postSection .container .postItem {
 	height: 30%;
-	min-height: 180px;
+	min-height: 190px;
 	width: 32.6%;
 	border-radius: 10px;
 	position: relative;
@@ -304,6 +304,7 @@ textarea:focus {
 
 /*suggested followers section*/
 #suggestSection {
+	font-size: 15px;
 	height: 100%;
 }
 
@@ -320,35 +321,34 @@ textarea:focus {
 #suggestSection .container .suggestItem {
 	overflow: hidden;
 	width: 100%;
-	height: 10%;
-	padding-bottom: 16px;
-	border-bottom: 1px solid gray;
+	height: 6%;
+	min-height: 60px;
 	margin-top: 8px;
 	margin-bottom: 6px;
-
-}
-
-#suggestSection .container .suggestItem a .suggestSubItem:nth-of-type(1) {
-	align-self: center;
-}
-
-#suggestSection .container .suggestItem a .suggestSubItem:nth-of-type(2) {
-	margin-top: 5px;
-	margin-right: 15px;
-	margin-left: 10px;
-}
-
-#suggestSection .container .suggestItem a .suggestSubItem:nth-of-type(3) {
-	align-self: center;
-}
-
-#suggestSection .container .suggestItem a {
 	display: flex;
-	justify-content: center;
-	height: 100%;
+	height: 8%;
 	border: 2px solid gray;
-	padding: 10px;
 	border-radius: 12px;
+
+}
+#suggestSection .container .suggestItem .suggestSubItem{
+	padding: 4px;
+}
+
+#suggestSection .container .suggestItem .suggestSubItem:nth-of-type(1) {
+	padding-top: 8px;
+	align-self: center;
+	flex: 1 3 10%;
+}
+
+#suggestSection .container .suggestItem .suggestSubItem:nth-of-type(2) {
+	margin-top: 5px;
+	flex: 6 4 70%;
+}
+
+#suggestSection .container .suggestItem .suggestSubItem:nth-of-type(3) {
+	align-self: center;
+	flex: 1 1 20%;
 }
 
 #suggestSection .container .suggestItem .suggestImg {
