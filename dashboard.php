@@ -46,18 +46,20 @@
 				<div class="DBItem"></div>
 				<div class="DBItem">
 					<div id="postSection" class="container">
-						<div class="postItem">
-							<img class="postImg" src="assets/imgs/goldfish.jpg">
-							<p class="postTitle">asdf</p>
-						</div>
-						<div class="postItem">
-							<img class="postImg">
-							<p class="postTitle">adsf</p>
-						</div>
-						<div class="postItem">
-							<img class="postImg">
-							<p class="postTitle">asdf</p>
-						</div>
+						<ul>
+							<li class="postItem">
+								<img class="postImg" src="assets/imgs/goldfish.jpg">
+								<p class="postTitle">asdf</p>
+							</li>
+							<li class="postItem">
+								<img class="postImg" src="assets/imgs/goldfish.jpg">
+								<p class="postTitle">asdf</p>
+							</li>
+							<li class="postItem">
+								<img class="postImg" src="assets/imgs/goldfish.jpg">
+								<p class="postTitle">asdf</p>
+							</li>
+						</ul>
 					</div>
 				</div>
 				<div class="DBItem">
