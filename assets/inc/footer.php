@@ -4,9 +4,6 @@
 					<p>&copy; 2024 Teassr</p>
 				</div>
 				<div class="footerItem">
-					<a href="#">Language</a>
-				</div>
-				<div class="footerItem">
 					<a href="#">Explore</a>
 				</div>
 				<div class="footerItem">
