@@ -1,5 +1,10 @@
 <?php include 'assets/inc/header.php' ?>
 
+<title>Teassr</title>
+	</head>
+
+	<body>
+
 		<div class="modalBackground"></div>
 		<?php include 'assets/modals/loginModal.php' ?>
 		<?php include 'assets/modals/signUpModal.php' ?>

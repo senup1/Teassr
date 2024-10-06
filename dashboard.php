@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-<html>
-	
-	<head>
-		<title>Dashboard</title>
-		<meta name="description" content="better website on god">
-		<meta charset="utf-8">
-		<meta name="keywords" content="better, best, godly, amazing">
-		<link rel="stylesheet" type="text/css" href="assets/styles/main.css?v=0.005">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+<?php include 'assets/inc/header.php' ?>
+
+<title>Dashboard</title>
 	</head>
 
 	<body>
