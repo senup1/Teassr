@@ -4,17 +4,15 @@
 	</head>
     <body>
         <section id="contactPage">
-            <p id="contactTitle">Contact Us</p>
-            <form action="handing/sendEmail.php" method="POST" class="container">
-                <div>
-                    <label for="name">Email:</label>
-                    <input type="email" name="email" required>  
+            <form action="sendEmail.php" method="GET" class="container">
+                <p id="contactTitle">Contact Us</p>
+                <div class="CPItem">
+                    <input type="email" name="email" placeholder="Enter Your Email" required>  
                 </div>
-                <div>
-                    <label for="name">Message:</label>
-                    <textarea id="message"  name="message" rows="5" required></textarea>
+                <div class="CPItem">
+                    <textarea placeholder="Enter Message" id="message"  name="message" rows="5" required></textarea>
                 </div>
-                <div>
+                <div class="CPItem">
                     <button type="submit">Send</button>
                 </div>
             </form>
