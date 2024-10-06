@@ -221,6 +221,16 @@ input:focus {
 #postSection {
 	height: 100%;
 }
+#postSection a{
+	color: gray;
+	font-size: 20px;
+	font-weight: normal;
+}
+#postSection a:hover{
+	color: gray;
+	font-size: 20px;
+	font-weight: normal;
+}
 
 #postSection .container{
 	display: flex;
