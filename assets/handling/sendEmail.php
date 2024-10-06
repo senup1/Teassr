@@ -9,10 +9,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $headers = "From: $email";
 
-    if (mail($to, $subject, $body, $headers)) {
-        echo "Email sent successfully!";
-    } else {
-        echo "Failed to send email.";
-    }
 }
 ?>
+
+
+<?php include '../../../assets/inc/header.php' ?>
+
+<title>About Teassr</title>
+	</head>
+    <body>
+        <section id="aboutPage">
+            <p>test</p>
+        </section>
+
+        
+<?php include '../../../assets/inc/footer.php' ?>

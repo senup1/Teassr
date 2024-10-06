@@ -5,7 +5,7 @@
     <body>
         <section id="contactPage">
             <p id="contactTitle">Contact Us</p>
-            <form action="handing/sendEmail.php" method="POST" class="container">
+            <form action="assets/handling/sendEmail.php" method="GET" class="container">
                 <div class="CPItem">
                     <input type="email" name="email" placeholder="Enter Your Email" required>  
                 </div>
