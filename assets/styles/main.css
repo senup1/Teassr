@@ -379,10 +379,6 @@ textarea:focus {
 	justify-content: center;
 }
 
-#aboutPage .container .APItem {
-	margin-top: 80px;
-}
-
 #aboutPage .container .APItem .APTitle {
 	font-size: 18px;
 	border-bottom: 1px solid white;
@@ -428,7 +424,7 @@ textarea:focus {
 }
 
 /*contact page*/
-#contactPage{
+#contactPage {
 	height: 92%;
 	width: 100%;
 }
@@ -436,7 +432,8 @@ textarea:focus {
 	font-size: 34px;
 	margin-top: 40px;
 }
-#contactPage .container{
+
+#contactPage .container {
 	height: 100%;
 	width: 30%;
 	display: flex;
@@ -451,7 +448,8 @@ textarea:focus {
 	padding-top: 60px;
 	width: 100%;
 }
-#contactPage .container .CPItem:nth-of-type(2){
+
+#contactPage .container .CPItem:nth-of-type(2) {
 	width: 100%;
 }
 #contactPage .container .CPItem button{
@@ -472,11 +470,12 @@ textarea:focus {
 }
 
 /*sendEmail page*/
-#sendEmail{
+#sendEmail {
 	height: 92%;
 	width: 100%;
 }
-#sendEmail .container{
+
+#sendEmail .container {
 	height: 100%;
 	width: 100%;
 	display: flex;

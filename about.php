@@ -9,8 +9,9 @@
             <div class="APItem">
                 <p class="APTitle"> WHO WE ARE: </p>
                 <p class="APBody">
-                    Teassr is a social media platform that allows users create an account, post to your followers, and
-                    connected with your friends! All in a simple and safe envirnment. Have fun, and Teass On!!
+                    Welcome to Teassr—a dynamic social media platform designed to foster connections and
+                    creativity among users. Here, you can share your thoughts, engage with friends, and cultivate a
+                    vibrant online community. <br /> <br /> Have fun, and Teass On!!
                 </p>
             </div>
         </div>
