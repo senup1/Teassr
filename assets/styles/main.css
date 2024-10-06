@@ -363,6 +363,37 @@ input:focus {
 	font-size: 36px;
 }
 
+/*help page*/
+#helpPage{
+	height: 92%;
+	width: 100%;
+}
+#helpPage .container{
+	padding-top: 60px;
+	height: 100%;
+	width: 60%;
+	border: 1px solid blue;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#helpPage .container .HPItem{
+	width: 100%;
+	margin-top: 30px;
+}
+#helpPage .container .HPItem #HPTitle{
+	font-size: 28px;
+	font-weight: bold;
+}
+#helpPage .container .HPItem input{
+	color: #ffffff;
+	font-size: 18px;
+	width: 100%;
+	padding-bottom: 6px;
+	background: transparent;
+	border: none;
+	border-bottom: 3px solid white;
+}
 
 
 
