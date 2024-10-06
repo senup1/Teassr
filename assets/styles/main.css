@@ -635,6 +635,8 @@ input:focus {
 	border-top: 1px solid gray;
 	height: 8%;
 	width: 100%;
+	position: fixed;
+	bottom: 0;
 }
 
 #mainFooter .container {
@@ -642,6 +644,7 @@ input:focus {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-color: #20252e;
 }
 
 #mainFooter .container .footerItem {
@@ -649,7 +652,7 @@ input:focus {
 	font-size: 16px;
 }
 
-@media(max-height: 400px) {
+@media(max-height: 200px) {
 	#mainFooter {
 		position: relative;
 	}
