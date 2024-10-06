@@ -108,8 +108,22 @@ input:focus {
 	align-items: center;
 	text-align: center;
 	justify-content: center;
-	padding: 30px;
-	border: 2px solid purple;
+	overflow: hidden;
+}
+#MP .container #trendPost img{
+	height: 100%;
+}
+#MP .container #trendPost{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 90;
+}
+#MP .container #trendPost p{
+	font-size: 110px;
+	color: #000000;
+	position: absolute;
 }
 
 /*MP left subitems*/
