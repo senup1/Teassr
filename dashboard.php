@@ -45,8 +45,12 @@
 			<div class="container">			
 				<div class="DBItem"></div>
 				<div class="DBItem">
-					<div id="postSection" class="container">
-						<ul>
+					<div id="postSection">
+						<ul class="container">
+							<li class="postItem">
+								<img class="postImg" src="assets/imgs/goldfish.jpg">
+								<p class="postTitle">asdf</p>
+							</li>
 							<li class="postItem">
 								<img class="postImg" src="assets/imgs/goldfish.jpg">
 								<p class="postTitle">asdf</p>
