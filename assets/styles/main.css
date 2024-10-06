@@ -284,7 +284,6 @@ input:focus {
 	top: 3%;
 	left: 3%;
 	text-shadow: 0px 0px 5px black;
-	border: 1px solid green;
 }
 
 #postSection .container .postItem .postImg {
