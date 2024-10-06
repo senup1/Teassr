@@ -387,30 +387,35 @@ input:focus {
 	font-size: 36px;
 }
 
-/*help page*/
-#helpPage {
+/*FAQ page*/
+#faqPage {
 	height: 92%;
 	width: 100%;
 }
 
-#helpPage .container {
-	padding-top: 60px;
+#faqPage .container {
+	padding-top: 50px;
 	height: 100%;
 	width: 60%;
-	border: 1px solid blue;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-#helpPage .container .HPItem {
+#faqPage .container .faqItem{
 	width: 100%;
+	margin-top: 40px;
+}
+#faqPage .container .faqItem li{
 	margin-top: 30px;
 }
 
-#helpPage .container .HPItem #HPTitle {
-	font-size: 28px;
+#faqPage .container .faqItem #faqTitle{
+	font-size: 34px;
 	font-weight: bold;
+}
+#faqPage .container .faqItem .faqQuestion{
+	font-size: 22px;
 }
 
 
