@@ -6,7 +6,7 @@
 			</button>
 		</div>
 		<div class="LMItem">
-			<img class="logo" src="/assets/imgs/bow1-removebg-preview.png" alt="oops">
+			<img class="logo" src="/assets/imgs/bow1-removebg-inverted.png" alt="oops">
 		</div>
 		<div class="LMItem">
 			<form id="loginForm" action="assets/handling/login.php" method="POST">
