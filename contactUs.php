@@ -4,8 +4,8 @@
 	</head>
     <body>
         <section id="contactPage">
-            <p id="contactTitle">Contact Us</p>
-            <form action="assets/handling/sendEmail.php" method="GET" class="container">
+            <form action="sendEmail.php" method="GET" class="container">
+                <p id="contactTitle">Contact Us</p>
                 <div class="CPItem">
                     <input type="email" name="email" placeholder="Enter Your Email" required>  
                 </div>
