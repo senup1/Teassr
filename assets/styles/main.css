@@ -321,16 +321,32 @@ input:focus {
 #aboutPage{
 	height: 92%;
 	width: 100%;
+	position: relative;
+}
+#aboutPage .contactInfo{
+	position: absolute;
+	top: 20px;
+	left: 14px;
 }
 #aboutPage .container{
 	height: 100%;
+	width: 40%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
 #aboutPage .container .APItem{
-
+	margin-top: 80px;
+}
+#aboutPage .container .APItem .APTitle{
+	font-size: 18px;
+	border-bottom: 1px solid white;
+	margin-bottom: 6px;
+	padding-bottom: 6px;
+}
+#aboutPage .container .APItem .APBody{
+	font-size: 36px;
 }
 
 

@@ -22,7 +22,7 @@
 						<div class="hr"></div>
 					</div>
 					<div class="MPSubItem">
-						<p>By joining, you agree to our <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a>, and confirm that you are at least 18 years old.</p>
+						<p>By joining, you agree to our <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a>, and confirm that you are at least 13 years old.</p>
 					</div>
 					<div class="MPSubItem">
 						<button>Sign in with Google</button>

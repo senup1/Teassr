@@ -6,15 +6,16 @@
         <section id="aboutPage">
             <div class="container">
                 <div class="APItem">
-                    <p id="APTitle"> WHO WE ARE: </p>
-                    <p id="APBody">
-                        Teassr is a social media platform allowing users to develop authentic connections with others in a safe and simple environment.
+                    <p class="APTitle"> WHO WE ARE: </p>
+                    <p class="APBody">
+                        Teassr is a social media platform that allows users to develop authentic connections with others in a safe and simple environment.
                     </p>
                 </div>
-                <div class="APItem">
-                    <p>Contact Info: </p>
-                    <p>Please contact teassrteam@gmail.com with any questions or concerns and a member of our team will review your inquiry.</p>
-                </div>
+            </div>
+            <div class="contactInfo">
+                <p>
+                    Email <strong>teassrteam@gmail.com</strong> with any questions or concerns.
+                </p>
             </div>
         </section>
 
