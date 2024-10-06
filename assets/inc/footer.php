@@ -10,6 +10,9 @@
 					<a href="../../../../help.php">Help</a>
 				</div>
 				<div class="footerItem">
+					<a href="../../../../contactUs.php">Contact Us</a>
+				</div>
+				<div class="footerItem">
 					<a href="#">Terms & Privacy</a>
 				</div>
 				<div class="footerItem">

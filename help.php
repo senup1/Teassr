@@ -6,10 +6,7 @@
         <section id="helpPage">
             <div class="container">
                 <div class="HPItem">
-                    <p id="HPTitle">How can we help?</p>
-                </div>
-                <div class="HPItem">
-                    <input type="text" placeholder="type to search">
+                    <p id="HPTitle">Frequently Asked Questions</p>
                 </div>
                 <div class="HPItem">
                     <p>Browse by topic</p>
