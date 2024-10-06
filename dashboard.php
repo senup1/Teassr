@@ -63,6 +63,38 @@
 								<img class="postImg" src="assets/imgs/goldfish.jpg">
 								<p class="postTitle">asdf</p>
 							</li>
+							<li class="postItem">
+								<img class="postImg" src="assets/imgs/goldfish.jpg">
+								<p class="postTitle">asdf</p>
+							</li>
+							<li class="postItem">
+								<img class="postImg" src="assets/imgs/goldfish.jpg">
+								<p class="postTitle">asdf</p>
+							</li>
+							<li class="postItem">
+								<img class="postImg" src="assets/imgs/goldfish.jpg">
+								<p class="postTitle">asdf</p>
+							</li>
+							<li class="postItem">
+								<img class="postImg" src="assets/imgs/goldfish.jpg">
+								<p class="postTitle">asdf</p>
+							</li>
+							<li class="postItem">
+								<img class="postImg" src="assets/imgs/goldfish.jpg">
+								<p class="postTitle">asdf</p>
+							</li>
+							<li class="postItem">
+								<img class="postImg" src="assets/imgs/goldfish.jpg">
+								<p class="postTitle">asdf</p>
+							</li>
+							<li class="postItem">
+								<img class="postImg" src="assets/imgs/goldfish.jpg">
+								<p class="postTitle">asdf</p>
+							</li>
+							<li class="postItem">
+								<img class="postImg" src="assets/imgs/goldfish.jpg">
+								<p class="postTitle">asdf</p>
+							</li>
 						</ul>
 					</div>
 				</div>
