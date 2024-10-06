@@ -7,7 +7,7 @@
 					<a href="../../../../about.php">About</a>
 				</div>
 				<div class="footerItem">
-					<a href="../../../../help.php">Help</a>
+					<a href="../../../../faq.php">FAQ</a>
 				</div>
 				<div class="footerItem">
 					<a href="../../../../contactUs.php">Contact Us</a>
