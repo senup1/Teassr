@@ -270,20 +270,21 @@ input:focus {
 
 #postSection .container .postItem {
 	height: 30%;
-	width: 32.8%;
-	border: 2px solid black;
+	min-height: 180px;
+	width: 32.6%;
 	border-radius: 10px;
 	position: relative;
 	overflow: hidden;
-	margin-top: 4px;
+	margin-top: 6px;
 }
 
 #postSection .container .postItem .postTitle {
 	font-size: 20px;
 	position: absolute;
-	top: 5px;
-	left: 4px;
+	top: 3%;
+	left: 3%;
 	text-shadow: 0px 0px 5px black;
+	border: 1px solid green;
 }
 
 #postSection .container .postItem .postImg {
