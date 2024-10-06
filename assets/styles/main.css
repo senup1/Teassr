@@ -430,7 +430,7 @@ textarea:focus {
 }
 #contactPage #contactTitle{
 	font-size: 34px;
-	margin-top: 40px;
+	margin-top: 100px;
 }
 
 #contactPage .container {
@@ -441,20 +441,18 @@ textarea:focus {
 	flex-direction: column;
 }
 #contactPage .container .CPItem{
-	margin-top: 30px;
+	margin-top: 24px;
+	width: 100%
 }
 #contactPage .container .CPItem:nth-of-type(1){
 	border-top: 1px solid #ffffff;
 	padding-top: 60px;
-	width: 100%;
-}
-
-#contactPage .container .CPItem:nth-of-type(2) {
-	width: 100%;
 }
 #contactPage .container .CPItem button{
+	margin-top: 10px;
 	width: 100%;
-	padding: 5px 400px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 #contactPage .container .CPItem input{
 	padding: 6px;
@@ -463,10 +461,12 @@ textarea:focus {
 	font-size: 15px;
 }
 #contactPage .container .CPItem textarea{
+	margin-top: 10px;
 	padding: 6px;
 	border-radius: 10px;
 	width: 100%;
 	font-size: 15px;
+	resize: none;
 }
 
 /*sendEmail page*/
