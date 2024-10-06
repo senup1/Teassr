@@ -7,9 +7,6 @@
 					<a href="../../../../about.php">About</a>
 				</div>
 				<div class="footerItem">
-					<a href="#">Contact</a>
-				</div>
-				<div class="footerItem">
 					<a href="#">Help</a>
 				</div>
 				<div class="footerItem">
