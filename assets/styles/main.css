@@ -188,7 +188,6 @@ input:focus {
 
 #dashBody .container .DBItem {
 	width: 200px;
-	border: 1px dashed orange;
 }
 
 #dashBody .container .DBItem:nth-of-type(1) {
@@ -231,6 +230,9 @@ input:focus {
 	font-size: 20px;
 	font-weight: normal;
 }
+#postSection .container .postItem:hover .postTitle{
+	text-decoration: underline;
+}
 
 #postSection .container{
 	display: flex;
@@ -265,6 +267,52 @@ input:focus {
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
+}
+
+/*suggested followers section*/
+#suggestSection{
+	height: 100%;
+}
+#suggestSection #suggestSectionTitle{
+	margin-top: 8px;
+}
+#suggestSection .container{
+ 	display: flex;
+ 	flex-direction: column;
+	justify-content: start;
+}
+#suggestSection .container .suggestItem{
+	overflow: hidden;
+	width: 100%;
+	height: 10%;
+	padding-bottom: 16px;
+	border-bottom: 1px solid gray;
+	margin-top: 8px;
+
+}
+#suggestSection .container .suggestItem a .suggestSubItem:nth-of-type(1){
+	align-self: center;
+}
+#suggestSection .container .suggestItem a .suggestSubItem:nth-of-type(2){
+	margin-top: 5px;
+	margin-right: 142px;
+	margin-left: 10px;
+}
+#suggestSection .container .suggestItem a .suggestSubItem:nth-of-type(3){
+	align-self: center;
+}
+#suggestSection .container .suggestItem a{
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	border: 2px solid gray;
+	padding: 10px;
+	border-radius: 12px;
+}
+#suggestSection .container .suggestItem .suggestImg{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
 }
 
 
