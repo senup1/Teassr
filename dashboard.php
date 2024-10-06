@@ -152,6 +152,32 @@
 									</div>
 								</a>
 							</li>
+							<li class="suggestItem">
+								<a href="#">
+									<div class="suggestSubItem">
+										<img class="suggestImg" src="assets/imgs/goldfish.jpg">
+									</div>
+									<div class="suggestSubItem">
+										<p>user</p>
+									</div>
+									<div class="suggestSubItem">
+										<button>follow</button>
+									</div>
+								</a>
+							</li>
+							<li class="suggestItem">
+								<a href="#">
+									<div class="suggestSubItem">
+										<img class="suggestImg" src="assets/imgs/goldfish.jpg">
+									</div>
+									<div class="suggestSubItem">
+										<p>user</p>
+									</div>
+									<div class="suggestSubItem">
+										<button>follow</button>
+									</div>
+								</a>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -160,7 +186,4 @@
 		</section>
 
 
-		<script src="assets/scripts/main.js"></script>
-	</body>
-
-</html>
+<?php include 'assets/inc/footer.php' ?>
