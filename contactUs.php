@@ -5,7 +5,17 @@
     <body>
         <section id="contactPage">
             <div class="container">
-                <p>temp</p>
+                <div class="CPItem">
+                    <p>Contact Us</p>
+                </div>
+                <div class="CPItem">
+                    <form action="handing/sendEmail.php" method="POST">
+                        <label for="name">Email:</label>
+                        <input type="email" name="email" required>
+                        <label for="name">Message:</label>
+                        <textarea id="message"  name="message" rows="5" required></textarea>
+                    </form>
+                </div>
             </div>
         </section>
 
