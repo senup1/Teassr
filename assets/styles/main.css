@@ -402,19 +402,21 @@ input:focus {
 	align-items: center;
 }
 
-#faqPage .container .faqItem{
+#faqPage .container .faqItem {
 	width: 100%;
 	margin-top: 40px;
 }
-#faqPage .container .faqItem li{
+
+#faqPage .container .faqItem li {
 	margin-top: 30px;
 }
 
-#faqPage .container .faqItem #faqTitle{
+#faqPage .container .faqItem #faqTitle {
 	font-size: 34px;
 	font-weight: bold;
 }
-#faqPage .container .faqItem .faqQuestion{
+
+#faqPage .container .faqItem .faqQuestion {
 	font-size: 22px;
 }
 
