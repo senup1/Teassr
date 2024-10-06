@@ -8,7 +8,7 @@
 	padding: 0px;
 	margin: 0px;
 	box-sizing: border-box;
-	font-family: 'Roboto', Helvetica, sans-serif;
+	font-family: 'Gill Sans', sans-serif;
 }
 
 html,
@@ -18,19 +18,24 @@ body {
 }
 
 body {
-	font-family: 'Roboto', Helvetica, sans-serif;
+	font-family: 'Gill Sans', sans-serif;
 	background-color: var(--mainBackgroundColor);
 	color: #ffffff;
 	font-weight: 300;
-	-ms-overflow-style: none; /* for Internet Explorer, Edge */
-  	scrollbar-width: none; /* for Firefox */
-  	overflow-y: scroll; 
+	-ms-overflow-style: none;
+	/* for Internet Explorer, Edge */
+	scrollbar-width: none;
+	/* for Firefox */
+	overflow-y: scroll;
 }
+
 ::-webkit-scrollbar-button {
 	display: none;
-} 
+}
+
 ::-webkit-scrollbar {
-	display: none; /* for Chrome, Safari, and Opera */
+	display: none;
+	/* for Chrome, Safari, and Opera */
 }
 
 ul {
@@ -110,17 +115,20 @@ input:focus {
 	justify-content: center;
 	overflow: hidden;
 }
-#MP .container #trendPost img{
+
+#MP .container #trendPost img {
 	height: 100%;
 }
-#MP .container #trendPost{
+
+#MP .container #trendPost {
 	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	z-index: 90;
 }
-#MP .container #trendPost p{
+
+#MP .container #trendPost p {
 	font-size: 110px;
 	color: #000000;
 	position: absolute;
@@ -188,7 +196,7 @@ input:focus {
 	display: none;
 }
 
-#dashBody{
+#dashBody {
 	height: 92%;
 	width: 100%;
 }
@@ -234,21 +242,24 @@ input:focus {
 #postSection {
 	height: 100%;
 }
-#postSection a{
+
+#postSection a {
 	color: gray;
 	font-size: 20px;
 	font-weight: normal;
 }
-#postSection a:hover{
+
+#postSection a:hover {
 	color: gray;
 	font-size: 20px;
 	font-weight: normal;
 }
-#postSection .container .postItem:hover .postTitle{
+
+#postSection .container .postItem:hover .postTitle {
 	text-decoration: underline;
 }
 
-#postSection .container{
+#postSection .container {
 	display: flex;
 	height: 100%;
 	justify-content: space-evenly;
@@ -257,7 +268,7 @@ input:focus {
 	overflow: auto;
 }
 
-#postSection .container .postItem{
+#postSection .container .postItem {
 	height: 30%;
 	width: 32.8%;
 	border: 2px solid black;
@@ -279,23 +290,26 @@ input:focus {
 	height: 100%;
 	border-radius: 10px;
 	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /*suggested followers section*/
-#suggestSection{
+#suggestSection {
 	height: 100%;
 }
-#suggestSection #suggestSectionTitle{
+
+#suggestSection #suggestSectionTitle {
 	margin-top: 8px;
 }
-#suggestSection .container{
- 	display: flex;
- 	flex-direction: column;
+
+#suggestSection .container {
+	display: flex;
+	flex-direction: column;
 	justify-content: start;
 }
-#suggestSection .container .suggestItem{
+
+#suggestSection .container .suggestItem {
 	overflow: hidden;
 	width: 100%;
 	height: 10%;
@@ -305,18 +319,22 @@ input:focus {
 	margin-bottom: 6px;
 
 }
-#suggestSection .container .suggestItem a .suggestSubItem:nth-of-type(1){
+
+#suggestSection .container .suggestItem a .suggestSubItem:nth-of-type(1) {
 	align-self: center;
 }
-#suggestSection .container .suggestItem a .suggestSubItem:nth-of-type(2){
+
+#suggestSection .container .suggestItem a .suggestSubItem:nth-of-type(2) {
 	margin-top: 5px;
 	margin-right: 142px;
 	margin-left: 10px;
 }
-#suggestSection .container .suggestItem a .suggestSubItem:nth-of-type(3){
+
+#suggestSection .container .suggestItem a .suggestSubItem:nth-of-type(3) {
 	align-self: center;
 }
-#suggestSection .container .suggestItem a{
+
+#suggestSection .container .suggestItem a {
 	display: flex;
 	justify-content: center;
 	height: 100%;
@@ -324,7 +342,8 @@ input:focus {
 	padding: 10px;
 	border-radius: 12px;
 }
-#suggestSection .container .suggestItem .suggestImg{
+
+#suggestSection .container .suggestItem .suggestImg {
 	height: 50px;
 	width: 50px;
 	border-radius: 50%;
@@ -332,17 +351,19 @@ input:focus {
 
 
 /*about page*/
-#aboutPage{
+#aboutPage {
 	height: 92%;
 	width: 100%;
 	position: relative;
 }
-#aboutPage .contactInfo{
+
+#aboutPage .contactInfo {
 	position: absolute;
 	top: 20px;
 	left: 14px;
 }
-#aboutPage .container{
+
+#aboutPage .container {
 	height: 100%;
 	width: 40%;
 	display: flex;
@@ -350,16 +371,19 @@ input:focus {
 	align-items: center;
 	justify-content: center;
 }
-#aboutPage .container .APItem{
+
+#aboutPage .container .APItem {
 	margin-top: 80px;
 }
-#aboutPage .container .APItem .APTitle{
+
+#aboutPage .container .APItem .APTitle {
 	font-size: 18px;
 	border-bottom: 1px solid white;
 	margin-bottom: 6px;
 	padding-bottom: 6px;
 }
-#aboutPage .container .APItem .APBody{
+
+#aboutPage .container .APItem .APBody {
 	font-size: 36px;
 }
 
@@ -591,7 +615,6 @@ input:focus {
 #mainFooter .container .footerItem {
 	margin-left: 40px;
 	font-size: 16px;
-	font-weight: bold;
 }
 
 @media(max-height: 400px) {
