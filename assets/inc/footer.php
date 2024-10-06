@@ -19,13 +19,7 @@
 					<a href="#">Terms & Privacy</a>
 				</div>
 				<div class="footerItem">
-					<a href="#">USC 2257</a>
-				</div>
-				<div class="footerItem">
 					<a href="#">DMCA</a>
-				</div>
-				<div class="footerItem">
-					<a href="#">Become A Creator</a>
 				</div>
 			</div>
 		</footer>
