@@ -120,23 +120,10 @@
 						<li class="suggestItem">
 							<a href="#">
 								<div class="suggestSubItem">
-									<img class="suggestImg" src="assets/imgs/ppl/ppl2.png">
+									<img class="suggestImg" src="assets/imgs/pfps/pfp1.png">
 								</div>
 								<div class="suggestSubItem">
-									<p>user</p>
-								</div>
-								<div class="suggestSubItem">
-									<button>follow</button>
-								</div>
-							</a>
-						</li>
-						<li class="suggestItem">
-							<a href="#">
-								<div class="suggestSubItem">
-									<img class="suggestImg" src="assets/imgs/ppl/ppl2.png">
-								</div>
-								<div class="suggestSubItem">
-									<p>user</p>
+									<p>bokchoy1.uwu</p>
 								</div>
 								<div class="suggestSubItem">
 									<button>follow</button>
@@ -146,10 +133,10 @@
 						<li class="suggestItem">
 							<a href="#">
 								<div class="suggestSubItem">
-									<img class="suggestImg" src="assets/imgs/ppl/ppl2.png">
+									<img class="suggestImg" src="assets/imgs/pfps/pfp2.png">
 								</div>
 								<div class="suggestSubItem">
-									<p>user</p>
+									<p>hisPumpkin4</p>
 								</div>
 								<div class="suggestSubItem">
 									<button>follow</button>
@@ -159,10 +146,36 @@
 						<li class="suggestItem">
 							<a href="#">
 								<div class="suggestSubItem">
-									<img class="suggestImg" src="assets/imgs/ppl/ppl2.png">
+									<img class="suggestImg" src="assets/imgs/pfps/pfp3.png">
 								</div>
 								<div class="suggestSubItem">
-									<p>user</p>
+									<p>holleratyaboy140</p>
+								</div>
+								<div class="suggestSubItem">
+									<button>follow</button>
+								</div>
+							</a>
+						</li>
+						<li class="suggestItem">
+							<a href="#">
+								<div class="suggestSubItem">
+									<img class="suggestImg" src="assets/imgs/pfps/pfp4.png">
+								</div>
+								<div class="suggestSubItem">
+									<p>animelover2000</p>
+								</div>
+								<div class="suggestSubItem">
+									<button>follow</button>
+								</div>
+							</a>
+						</li>
+						<li class="suggestItem">
+							<a href="#">
+								<div class="suggestSubItem">
+									<img class="suggestImg" src="assets/imgs/pfps/pfp5.png">
+								</div>
+								<div class="suggestSubItem">
+									<p>joshuagale.exe</p>
 								</div>
 								<div class="suggestSubItem">
 									<button>follow</button>
