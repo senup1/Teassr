@@ -4,7 +4,7 @@
 					<p>&copy; 2024 Teassr</p>
 				</div>
 				<div class="footerItem">
-					<a href="pages/about.php">About</a>
+					<a href="../../../../about.php">About</a>
 				</div>
 				<div class="footerItem">
 					<a href="#">Contact</a>
