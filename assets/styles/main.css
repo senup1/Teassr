@@ -337,11 +337,6 @@ input:focus {
 	width: 100%;
 	position: relative;
 }
-#aboutPage .contactInfo{
-	position: absolute;
-	top: 20px;
-	left: 14px;
-}
 #aboutPage .container{
 	height: 100%;
 	width: 40%;

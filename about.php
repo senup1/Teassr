@@ -12,11 +12,6 @@
                     </p>
                 </div>
             </div>
-            <div class="contactInfo">
-                <p>
-                    Email <strong>teassrteam@gmail.com</strong> with any questions or concerns.
-                </p>
-            </div>
         </section>
 
         
