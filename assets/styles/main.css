@@ -171,39 +171,6 @@ textarea:focus {
 
 
 /*Dash Page*/
-#dashNav {
-	position: fixed;
-	border: 1px solid blue;
-}
-
-#dashNav .container {
-	display: flex;
-	flex-direction: column;
-	align-items: left;
-	justify-content: center;
-	border: 1px solid yellow;
-}
-
-#dashNav .container .DNItem {
-	width: 240px;
-	border-bottom: 1px solid blue;
-
-}
-
-#dashNav .container .DNItem button {
-	padding: 2px;
-	padding-left: 10px;
-	margin: 0px;
-	width: 100%;
-	border-radius: 0px;
-	text-align: left;
-
-}
-
-#dashNav .container #DNItems {
-	display: none;
-}
-
 #dashBody {
 	height: 92%;
 	width: 100%;
@@ -710,6 +677,40 @@ textarea:focus {
 
 
 
+
+/*NavBar*/
+#nav {
+	position: fixed;
+	border: 1px solid blue;
+}
+
+#nav .container {
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: center;
+	border: 1px solid yellow;
+}
+
+#nav .container .DNItem {
+	width: 240px;
+	border-bottom: 1px solid blue;
+
+}
+
+#nav .container .DNItem button {
+	padding: 2px;
+	padding-left: 10px;
+	margin: 0px;
+	width: 100%;
+	border-radius: 0px;
+	text-align: left;
+
+}
+
+#nav .container #DNItems {
+	display: none;
+}
 
 
 

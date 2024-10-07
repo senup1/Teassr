@@ -1,4 +1,4 @@
-<nav id="dashNav">
+<nav id="nav">
 		<div class="container">
 			<div>
 				<button onclick="menuActions()">Menu</button>
