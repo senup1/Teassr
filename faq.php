@@ -1,6 +1,6 @@
 <?php include 'assets/inc/header.php' ?>
 
-<title>Teassr Help</title>
+<title>Teassr FAQ</title>
 	</head>
     <body>
         <section id="faqPage">
