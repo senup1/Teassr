@@ -73,6 +73,7 @@ input {
 input:focus {
 	outline: none;
 }
+
 textarea {
 	outline: none;
 }
@@ -306,6 +307,7 @@ textarea:focus {
 #suggestSection {
 	font-size: 15px;
 	height: 100%;
+	margin-left: 25px;
 }
 
 #suggestSection #suggestSectionTitle {
@@ -338,6 +340,10 @@ textarea:focus {
 	background-color: transparent;
 	border-radius: 12px;
 
+}
+
+#suggestSection .container .suggestItem .suggestSubItem {
+	padding: 4px;
 }
 
 #suggestSection .container .suggestItem .suggestSubItem:nth-of-type(1) {
@@ -378,12 +384,19 @@ textarea:focus {
 }
 
 #aboutPage .container {
-	height: 100%;
 	width: 40%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+#aboutPage #Body1,
+#Body2,
+#Body3 {
+	padding-bottom: 30px;
 }
 
 #aboutPage .container .APItem .APTitle {
@@ -435,7 +448,8 @@ textarea:focus {
 	height: 92%;
 	width: 100%;
 }
-#contactPage #contactTitle{
+
+#contactPage #contactTitle {
 	font-size: 34px;
 	margin-top: 100px;
 }
@@ -447,27 +461,32 @@ textarea:focus {
 	align-items: center;
 	flex-direction: column;
 }
-#contactPage .container .CPItem{
+
+#contactPage .container .CPItem {
 	margin-top: 24px;
 	width: 100%
 }
-#contactPage .container .CPItem:nth-of-type(1){
+
+#contactPage .container .CPItem:nth-of-type(1) {
 	border-top: 1px solid #ffffff;
 	padding-top: 60px;
 }
-#contactPage .container .CPItem button{
+
+#contactPage .container .CPItem button {
 	margin-top: 10px;
 	width: 100%;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
-#contactPage .container .CPItem input{
+
+#contactPage .container .CPItem input {
 	padding: 6px;
 	border-radius: 10px;
 	width: 100%;
 	font-size: 15px;
 }
-#contactPage .container .CPItem textarea{
+
+#contactPage .container .CPItem textarea {
 	margin-top: 10px;
 	padding: 6px;
 	border-radius: 10px;
