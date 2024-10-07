@@ -5,7 +5,7 @@
 					<button id="SUMCloseButton"><p>X</p></button>
 				</div>
 				<div class="SUMItem">
-					<img class="logo" src="assets/imgs/logo.svg" alt="oops">
+					<img class="logo" src="/assets/imgs/bow1-removebg-inverted.png" alt="oops">
 				</div>
 				<div class="SUMItem">
 					<form id="signUpForm" action="assets/handling/signup.php" method="POST">
