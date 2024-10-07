@@ -8,13 +8,13 @@
 		</div>
 		<div class="DNItems">
 			<div class=DNItem>
-				<button>My Profile</button>
+				<button onclick="window.open('https:/\/google.com')">My Profile</button>
 			</div>
 			<div class=DNItem>
-				<button>Messages</button>
+				<button onclick="window.open('https:/\/google.com')">Messages</button>
 			</div>
 			<div class=DNItem>
-				<button>Settings</button>
+				<button onclick="window.open('https:/\/google.com')">Settings</button>
 			</div>
 		</div>
 	</div>

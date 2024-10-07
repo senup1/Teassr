@@ -770,7 +770,7 @@ textarea:focus {
 }
 #nav .container .DNItem {
 	width: 100%;
-	border-bottom: 1px solid blue;
+	border-bottom: 1px solid gray;
 
 }
 
@@ -781,6 +781,7 @@ textarea:focus {
 	width: 100%;
 	text-align: left;
 	border-radius: 0px;
+	background-color: transparent;
 
 }
 
