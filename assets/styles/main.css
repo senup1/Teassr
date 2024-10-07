@@ -335,7 +335,8 @@ textarea:focus {
 	padding: 10px;
 
 }
-#suggestSection .container .suggestItem:hover{
+
+#suggestSection .container .suggestItem:hover {
 	border: 2px solid rgb(83, 83, 83);
 	background-color: transparent;
 	border-radius: 12px;
@@ -501,7 +502,36 @@ textarea:focus {
 	font-size: 24px;
 }
 
+/*Terms and Privacy Pages*/
+#termsAndPrivacy {
+	height: 92%;
+	width: 100%;
+}
 
+#termsAndPrivacy .container {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-top: 6%;
+	padding-bottom: 10%;
+}
+
+#termsAndPrivacy .TPBody {
+	margin-bottom: 75px;
+}
+
+#termsAndPrivacy .container .TPItem .TPTitle {
+	font-size: 18px;
+	border-bottom: 1px solid white;
+	margin-bottom: 6px;
+	padding-bottom: 6px;
+}
+
+#termsAndPrivacy .container .TPItem .TPBody {
+	font-size: 36px;
+}
 
 /*Modals*/
 /*login modal*/
