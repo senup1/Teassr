@@ -481,12 +481,21 @@ textarea:focus {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding-top: 6%;
-	padding-bottom: 10%;
+	padding-top: 3%;
+
 }
 
-#termsAndPrivacy .TPBody {
-	margin-bottom: 75px;
+#termsAndPrivacy p {
+	margin-bottom: 15px;
+}
+
+#termsAndPrivacy .container .TPItem {
+	padding-bottom: 5%;
+	border-bottom: 5px dashed white;
+}
+
+#termsAndPrivacy .container .PPItem {
+	margin-bottom: 10%;
 }
 
 #termsAndPrivacy .container .TPItem .TPTitle {
@@ -496,7 +505,18 @@ textarea:focus {
 	padding-bottom: 6px;
 }
 
+#termsAndPrivacy .container .PPItem .PPTitle {
+	font-size: 18px;
+	border-bottom: 1px solid white;
+	margin-bottom: 6px;
+	padding-bottom: 6px;
+}
+
 #termsAndPrivacy .container .TPItem .TPBody {
+	font-size: 36px;
+}
+
+#termsAndPrivacy .container .PPItem .PPBody {
 	font-size: 36px;
 }
 
