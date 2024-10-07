@@ -1,28 +1,21 @@
 <nav id="nav">
-        <img class="logo" src="../../../../assets/imgs/bow1-removebg-inverted.png">
-		<div class="container">
-			<div>
-				<button onclick="menuActions()">Menu</button>
+	<a href="../../../../../dashboard.php">
+		<img class="logo" src="../../../../assets/imgs/bow1-removebg-inverted.png">
+	</a>
+	<div class="container">
+		<div class="menuButton">
+			<button onclick="menuActions()">Menu</button>
+		</div>
+		<div class="DNItems">
+			<div class=DNItem>
+				<button>My Profile</button>
 			</div>
-			<div id="DNItems">
-				<div class=DNItem>
-					<button>temp</button>
-				</div>
-				<div class=DNItem>
-					<button>temp</button>
-				</div>
-				<div class=DNItem>
-					<button>temp</button>
-				</div>
-				<div class=DNItem>
-					<button>temp</button>
-				</div>
-				<div class=DNItem>
-					<button>temp</button>
-				</div>
-				<div class=DNItem>
-					<button>temp</button>
-				</div>
+			<div class=DNItem>
+				<button>Messages</button>
+			</div>
+			<div class=DNItem>
+				<button>Settings</button>
 			</div>
 		</div>
-	</nav>
+	</div>
+</nav>

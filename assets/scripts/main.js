@@ -44,7 +44,7 @@ if(signUpButton){
 //ignore shit code below its cuz the dogshit garbage doesnt work until second click
 let tempVal = 0;
 function menuActions(){
-	let DNItems = document.querySelector('#DNItems');
+	let DNItems = document.querySelector('.DNItems');
 	
 	while(tempVal === 0){
 		DNItems.style.display = "none";

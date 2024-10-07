@@ -12,7 +12,7 @@
     <section id="termsAndPrivacy">
         <div class="container">
             <div class="TPItem">
-                <h1 class="TPTitle">Terms of Service (TOS)</h1>
+                <h1 class="TPTitle">Terms of Service</h1>
                 <p><strong>Effective Date:</strong> October 6th, 2024</p>
 
                 <h2>1. Acceptance of Terms</h2>
@@ -47,7 +47,7 @@
                     Website.</p>
 
                 <h2>9. Governing Law</h2>
-                <p>These terms shall be governed by the laws of [Your State or Country].</p>
+                <p>These terms shall be governed by the laws of North Carolina.</p>
             </div>
         </div>
         <div class="container">
