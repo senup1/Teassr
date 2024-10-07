@@ -3,6 +3,11 @@
 <title>Send Email Teassr</title>
 	</head>
     <body>
+
+    <?php include 'assets/inc/navbar.php' ?>
+
+	<div class="spaceMaker"></div>
+    
         <section id="sendEmail">
             <div class="container">
                 <p>Email sent successfully.</p>

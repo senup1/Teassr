@@ -3,6 +3,10 @@
 <title>Teassr FAQ</title>
 	</head>
     <body>
+    <?php include 'assets/inc/navbar.php' ?>
+
+	<div class="spaceMaker"></div>
+
         <section id="faqPage">
             <div class="container">
                 <div class="faqItem">

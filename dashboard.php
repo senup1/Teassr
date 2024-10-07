@@ -7,6 +7,8 @@
 
 	<?php include 'assets/inc/navbar.php' ?>
 
+	<div class="spaceMaker"></div>
+
 	<section id="dashBody">
 		<div class="container">
 			<div class="DBItem"></div>

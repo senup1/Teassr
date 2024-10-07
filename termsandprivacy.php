@@ -4,6 +4,11 @@
 </head>
 
 <body>
+
+    <?php include 'assets/inc/navbar.php' ?>
+
+	<div class="spaceMaker"></div>
+
     <section id="termsAndPrivacy">
         <div class="container">
             <div class="TPItem">

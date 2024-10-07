@@ -3,6 +3,11 @@
 <title>Contact Teassr</title>
 	</head>
     <body>
+
+    <?php include 'assets/inc/navbar.php' ?>
+
+	<div class="spaceMaker"></div>
+    
         <section id="contactPage">
             <form action="sendEmail.php" method="GET" class="container">
                 <p id="contactTitle">Contact Us</p>
