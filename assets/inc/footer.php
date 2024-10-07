@@ -16,7 +16,7 @@
 			<a href="../../../../termsAndPrivacy.php">Terms & Privacy</a>
 		</div>
 		<div class="footerItem">
-			<a href="#">DMCA</a>
+			<a href="../../../../dmca.php">DMCA</a>
 		</div>
 	</div>
 </footer>
