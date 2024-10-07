@@ -1,6 +1,6 @@
 <?php include 'assets/inc/header.php' ?>
 
-<title>About Teassr</title>
+<title>Send Email Teassr</title>
 	</head>
     <body>
         <section id="sendEmail">
