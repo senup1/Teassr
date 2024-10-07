@@ -383,10 +383,8 @@ textarea:focus {
 	padding-bottom: 10%;
 }
 
-#aboutPage #Body1,
-#Body2,
-#Body3 {
-	padding-bottom: 30px;
+#aboutPage .APBody {
+	margin-bottom: 75px;
 }
 
 #aboutPage .container .APItem .APTitle {
@@ -398,6 +396,10 @@ textarea:focus {
 
 #aboutPage .container .APItem .APBody {
 	font-size: 36px;
+}
+
+#aboutPage .APCaption {
+	font-size: 16px;
 }
 
 /*FAQ page*/
