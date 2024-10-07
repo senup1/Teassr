@@ -370,13 +370,6 @@ textarea:focus {
 #aboutPage {
 	height: 92%;
 	width: 100%;
-	position: relative;
-}
-
-#aboutPage .contactInfo {
-	position: absolute;
-	top: 20px;
-	left: 14px;
 }
 
 #aboutPage .container {
@@ -385,14 +378,14 @@ textarea:focus {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding-top: 10%;
+	padding-top: 6%;
 	padding-bottom: 10%;
 }
 
 #aboutPage #Body1,
 #Body2,
 #Body3 {
-	padding-bottom: 30px;
+	padding-bottom: 50px;
 }
 
 #aboutPage .container .APItem .APTitle {
