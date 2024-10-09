@@ -756,7 +756,8 @@ textarea:focus {
 	align-items: left;
 	justify-content: center;
 }
-#nav .container .DNItems{
+
+#nav .container .DNItems {
 	position: absolute;
 	top: 80%;
 	right: 0;
@@ -768,6 +769,7 @@ textarea:focus {
 	width: 180px;
 	overflow: hidden;
 }
+
 #nav .container .DNItem {
 	width: 100%;
 	border-bottom: 1px solid gray;
@@ -812,7 +814,7 @@ textarea:focus {
 
 /*Logo*/
 .logo {
-	height: 60px;
+	height: 55px;
 	border-radius: 8px;
 }
 
@@ -823,6 +825,7 @@ textarea:focus {
 #matchPass {
 	display: none;
 }
-.spaceMaker{
+
+.spaceMaker {
 	height: 6%;
 }
