@@ -524,6 +524,42 @@ textarea:focus {
 
 
 
+/* DMCA */
+#dmca {
+	display: flex;
+	flex-direction: column;
+	padding: 30px 0 100px 0;
+
+}
+
+#dmca #dmcaTitle {
+	font-size: 30px;
+	border-bottom: 10px;
+	border-color: #ffffff;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	margin-left: 5%;
+}
+
+#dmca .container .dmcaItem .dmcaItemTitle {
+	font-size: 24px;
+}
+
+#dmca .container .dmcaItem .dmcaItemTitleDate {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#dmca .container .dmcaItem {
+	margin-left: 5%;
+	padding: 10px;
+}
+
+#dmca .container .dmcaItemBody,
+li {
+	text-indent: 30px;
+	text-wrap: balance;
+}
 
 
 
