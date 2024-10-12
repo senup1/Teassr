@@ -30,18 +30,21 @@
                 <div class="profileItem">
                     <p class="profileTitle"><?php echo $_SESSION['username'] ?>'s Profile</p>
                 </div>
+                <div class="profileItem">
+                    <img id="profileImg" src="../../../../assets/imgs/pfps/blankpfp.png">
+                </div>
 
                 <div class="profileItem">
                     <form id="profileForm" action="assets/handling/infoEdit.php" method="POST">
-                        <div>
+                        <div class="profileSubItem">
                             <input type="text" name="username" placeholder="<?php echo $_SESSION['username'] ?>">
                             <button>Change</button>
                         </div>
-                        <div>
+                        <div class="profileSubItem">
                             <input type="email" name="email" placeholder="<?php echo $fetchedEmail ?>">
                             <button>Change</button>
                         </div>
-                        <div>
+                        <div class="profileSubItem">
                             <textarea placeholder="<?php if(empty($fetchedBio)){echo 'Enter Bio';}else{echo $fetchedBio;} ?>" id="bio"  name="bio" rows="5"></textarea>
                             <button>Change</button>
                         </div>

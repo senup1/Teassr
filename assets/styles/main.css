@@ -618,10 +618,46 @@ textarea:focus {
 	height: 100%;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 
 }
 #profile .container  .profileItem{
-	margin-bottom: 80px;
+	margin-bottom: 60px;
+	display: flex;
+	flex-direction: column;
+}
+#profile .container .profileItem #profileImg{
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+}
+#profile .container  .profileItem .profileSubItem{
+	margin-top: 40px;
+	display: flex;
+	align-items: center;
+}
+#profile .container  .profileItem .profileSubItem button{
+	height: 28px;
+	margin-left: 20px;
+}
+#profile .container .profileItem .profileSubItem input{
+	width: 240px;
+	background: transparent;
+	font-size: 18px;
+	border: none;
+	border-bottom: 1px solid blue;
+	padding: 9px;
+	color: #ffffff;
+}
+#profile .container .profileItem .profileSubItem textarea {
+	padding: 9px;
+	width: 240px;
+	font-size: 18px;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid blue;
+	color: #ffffff;
+	resize: none;
 }
 #profile .container  .profileItem .profileTitle{
 	font-size: 32px;
