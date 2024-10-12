@@ -4,17 +4,20 @@
 	</a>
 	<div class="container">
 		<div class="menuButton">
-			<button onclick="menuActions()">Menu</button>
+			<button onclick="menuActions()"></button>
 		</div>
 		<div class="DNItems">
 			<div class=DNItem>
-				<button onclick="window.open('https:/\/google.com')">My Profile</button>
+				<button onclick="window.open('https:/\/google.com', '_self')">My Profile</button>
 			</div>
 			<div class=DNItem>
-				<button onclick="window.open('https:/\/google.com')">Messages</button>
+				<button onclick="window.open('https:/\/google.com', '_self')">Messages</button>
 			</div>
 			<div class=DNItem>
-				<button onclick="window.open('https:/\/google.com')">Settings</button>
+				<button onclick="window.open('../../../../settings.php', '_self')">Settings</button>
+			</div>
+			<div class=DNItem>
+				<button onclick="window.open('https:/\/google.com', '_self')">Logout</button>
 			</div>
 		</div>
 	</div>

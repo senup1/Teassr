@@ -341,7 +341,6 @@ textarea:focus {
 
 /*about page*/
 #aboutPage {
-	height: 86%;
 	width: 100%;
 }
 
@@ -378,6 +377,7 @@ textarea:focus {
 #faqPage {
 	height: 86%;
 	width: 100%;
+	padding-bottom: 1000px;
 }
 
 #faqPage .container {
@@ -409,7 +409,6 @@ textarea:focus {
 
 /*contact page*/
 #contactPage {
-	height: 86%;
 	width: 100%;
 }
 
@@ -476,7 +475,6 @@ textarea:focus {
 
 /*Terms and Privacy Pages*/
 #termsAndPrivacy {
-	height: 86%;
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -543,6 +541,7 @@ textarea:focus {
 
 /* DMCA */
 #dmca {
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	padding: 30px 5% 100px 5%;
@@ -596,6 +595,26 @@ textarea:focus {
 	word-wrap: break-word;
 	margin-bottom: 10px;
 }
+
+/*settings page*/
+#settings{
+	width: 100%;
+	height: 86%;
+	display: flex;
+	flex-direction: column;
+}
+#settings .container{
+	padding-top: 30px;
+	width: 70%;
+	height: 100%;
+
+}
+#settings .container  .settingsItem{
+}
+#settings .container  .settingsItem .settingsTitle{
+	font-size: 32px;
+}
+
 
 
 
@@ -834,17 +853,28 @@ textarea:focus {
 	align-items: left;
 	justify-content: center;
 }
+#nav .container .menuButton button{
+	width: 30px;
+	height: 30px;
+	background-image: url("../../../../assets/imgs/pfps/blankpfp.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: transparent;
+	padding: 21px;
+	border-radius: 50%;
+}
 
 #nav .container .DNItems {
 	position: absolute;
-	top: 80%;
+	top: 94%;
 	right: 0;
-	height: 98px;
+	height: 130px;
 	display: none;
 	border: 2px solid gray;
 	background-color: #20252e;
 	border-radius: 8px;
-	width: 180px;
+	width: 150px;
 	overflow: hidden;
 }
 
