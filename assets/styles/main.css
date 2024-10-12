@@ -559,7 +559,10 @@ textarea:focus {
 
 #dmca .container {
 	margin-left: 0;
-	max-width: 90%;
+	max-width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 #dmca .container .dmcaItem {
