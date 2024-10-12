@@ -8,13 +8,10 @@
 		</div>
 		<div class="DNItems">
 			<div class=DNItem>
-				<button onclick="window.open('https:/\/google.com', '_self')">My Profile</button>
+			<button onclick="window.open('../../../../myprofile.php', '_self')">My Profile</button>
 			</div>
 			<div class=DNItem>
 				<button onclick="window.open('https:/\/google.com', '_self')">Messages</button>
-			</div>
-			<div class=DNItem>
-				<button onclick="window.open('../../../../settings.php', '_self')">Settings</button>
 			</div>
 			<div class=DNItem>
 				<button onclick="window.open('https:/\/google.com', '_self')">Logout</button>

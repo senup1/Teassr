@@ -175,16 +175,25 @@ textarea:focus {
 	height: 86%;
 	width: 100%;
 }
+#dashBody #welcomeMessage{
+	top: 7%;
+	left: 0;
+	height: 5%;
+	width: 12%;
+	position: absolute;
+
+}
+#dashBody #welcomeMessage p{
+	font-size: 28px;
+	text-align: center;
+	padding-top: 5px;
+}
 
 #dashBody .container {
 	display: flex;
 	justify-content: center;
 	height: 100%;
 	width: 100%;
-}
-
-#dashBody .container .DBItem {
-	width: 200px;
 }
 
 #dashBody .container .DBItem:nth-of-type(1) {
@@ -597,22 +606,26 @@ textarea:focus {
 }
 
 /*settings page*/
-#settings{
+#profile{
 	width: 100%;
 	height: 86%;
 	display: flex;
 	flex-direction: column;
 }
-#settings .container{
-	padding-top: 30px;
+#profile .container{
+	padding-top: 20px;
 	width: 70%;
 	height: 100%;
+	display: flex;
+	flex-direction: column;
 
 }
-#settings .container  .settingsItem{
+#profile .container  .profileItem{
+	margin-bottom: 80px;
 }
-#settings .container  .settingsItem .settingsTitle{
+#profile .container  .profileItem .profileTitle{
 	font-size: 32px;
+	text-align: center;
 }
 
 
@@ -869,7 +882,7 @@ textarea:focus {
 	position: absolute;
 	top: 94%;
 	right: 0;
-	height: 130px;
+	height: 98px;
 	display: none;
 	border: 2px solid gray;
 	background-color: #20252e;

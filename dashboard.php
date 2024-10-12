@@ -10,6 +10,9 @@
 	<div class="spaceMaker"></div>
 
 	<section id="dashBody">
+		<div id="welcomeMessage">
+			<p>Welcome <?php echo $_SESSION['username'] ?>!</p>
+		</div>
 		<div class="container">
 			<div class="DBItem"></div>
 			<div class="DBItem">
