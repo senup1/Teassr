@@ -583,14 +583,10 @@ textarea:focus {
 	margin-bottom: 10px;
 }
 
-#dmca .container .dmcaItemBody,
-li {
+#dmca .container .dmcaItemBody li {
 	text-indent: 30px;
 	line-height: 1.7;
 	word-wrap: break-word;
-}
-
-li {
 	margin-bottom: 10px;
 }
 
