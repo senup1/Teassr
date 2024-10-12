@@ -479,48 +479,64 @@ textarea:focus {
 	height: 86%;
 	width: 100%;
 	display: flex;
+	justify-content: center;
+	padding: 20px 5%;
 }
 
 #termsAndPrivacy .container {
 	padding-top: 40px;
-	width: 40%;
+	width: 50%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	height: 100%;
-	padding-bottom: 1000px;
-
+	height: auto;
+	padding-bottom: 50px;
+	max-width: 900px;
+	margin: 0 auto;
 }
 
 #termsAndPrivacy p {
-	margin-bottom: 15px;
+	margin-bottom: 20px;
+	line-height: 1.6;
 }
 
-#termsAndPrivacy .container .PPItem {
-	margin-bottom: 10%;
+#termsAndPrivacy .container .PPItem,
+#termsAndPrivacy .container .TPItem {
+	margin-bottom: 50px;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+	background-color: rgba(255, 255, 255, 0.1);
+	width: 100%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
+#termsAndPrivacy .container .PPItem,
+.TPItem {
+	margin-left: 40px;
+}
+
+#termsAndPrivacy .container .PPItem .PPTitle,
 #termsAndPrivacy .container .TPItem .TPTitle {
-	font-size: 18px;
-	border-bottom: 1px solid white;
-	margin-bottom: 6px;
-	padding-bottom: 6px;
+	font-size: 20px;
+	border-bottom: 2px solid white;
+	margin-bottom: 12px;
+	padding-bottom: 10px;
+	text-align: left;
 }
 
-#termsAndPrivacy .container .PPItem .PPTitle {
-	font-size: 18px;
-	border-bottom: 1px solid white;
-	margin-bottom: 6px;
-	padding-bottom: 6px;
-}
-
+#termsAndPrivacy .container .PPItem .PPBody,
 #termsAndPrivacy .container .TPItem .TPBody {
-	font-size: 36px;
+	font-size: 20px;
+	line-height: 1.6;
 }
 
+#termsAndPrivacy .container .TPItem .TPBody,
 #termsAndPrivacy .container .PPItem .PPBody {
-	font-size: 36px;
+	word-wrap: break-word;
 }
+
 
 
 
