@@ -40,8 +40,29 @@ if(signUpButton){
 
 
 
+
+/* post Modal code */
+function postClick(button){
+	const post = button.parentElement;
+
+	const title = post.getAttribute('data-title');
+	const user = post.getAttribute('data-user');
+	const imgSrc = post.getAttribute('data-image');
+
+	document.getElementById("postModalTitle").textContent = title;
+	document.getElementById("postModalUser").textContent = "by: " + user;
+	document.getElementById("postModalImg").src = imgSrc;
+
+	document.getElementById("postModal").style.display = "block";
+}
+function closePostModal(){
+	document.getElementById("postModal").style.display = "none";
+}
+
+
+
 /*dashboard page code*/
-//ignore shit code below its cuz the dogshit garbage doesnt work until second click
+//ignore code below, its there to because it doesnt work until second click
 let tempVal = 0;
 function menuActions(){
 	let DNItems = document.querySelector('.DNItems');

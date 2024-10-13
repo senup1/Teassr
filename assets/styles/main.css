@@ -226,14 +226,13 @@ textarea:focus {
 #postSection {
 	height: 100%;
 }
-
-#postSection a {
+#postSection .container .postItem .postItemContent p{
 	color: gray;
 	font-size: 20px;
 	font-weight: normal;
 }
 
-#postSection a:hover {
+#postSection .container .postItem .postItemContent p:hover {
 	color: gray;
 	font-size: 20px;
 	font-weight: normal;
@@ -262,6 +261,17 @@ textarea:focus {
 	display: inline-block;
 }
 
+#postSection .container .postItem .postItemContent .postButton{
+	padding: 0;
+	border-radius: 10px;
+	border: none;
+	background-color: transparent;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+}
+
 #postSection .container .postItem .postTitle {
 	font-size: 20px;
 	position: absolute;
@@ -271,6 +281,7 @@ textarea:focus {
 }
 
 #postSection .container .postItem .postImg {
+	max-height: 250px;
 	height: 100%;
 	border-radius: 10px;
 	display: block;
@@ -874,6 +885,66 @@ textarea:focus {
 	font-size: 15px;
 	display: none;
 	color: red;
+}
+
+/*post Modal*/
+#postModal{
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 80px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 92%;
+	background-color: rgba(0,0,0,0.8);
+
+}
+#postModal .postModalContent{
+	background-color: var(--mainBackgroundColor);
+	margin: auto;
+	padding: 20px;
+	border-radius: 8px;
+	height: 98%;
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow: hidden;
+
+}
+#postModal .postModalContent .postModalItem:nth-of-type(2){
+	flex: 1 5 20px;
+}
+#postModal .postModalContent .postModalItem:nth-of-type(3){
+	flex: 1 5 16px;
+}
+#postModal .postModalContent .postModalItem:nth-of-type(4){
+	flex: 8 1 400px;
+}
+#postModal .postModalContent .postModalItem:nth-of-type(1){
+	flex: 1 5 30px;
+	align-self: end;
+}
+.closePostModal{
+	color: #aaa;
+	font-size: 30px;
+	font-weight: bold;
+}
+#postModalTitle{
+	font-size: 20px;
+}
+.closePostModal:hover, .closePostModal:focus{
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+#postModal img{
+	width: 100%;
+	margin-top: 10px;
+	max-height: 650px;
+	max-width: 1000px;
+	border-radius: 10px;
 }
 
 
