@@ -191,6 +191,7 @@
 							<div class="suggestSubItem">
 								<button onclick="suggestClick(this)"><p class="followText">follow</p></button>
 							</div>
+							<button class="suggestItemButton" onclick="window.open('bokchoy1.uwu.php', '_self')"></button>
 						</li>
 						<li class="suggestItem">
 							<div class="suggestSubItem">
@@ -202,6 +203,7 @@
 							<div class="suggestSubItem">
 								<button onclick="suggestClick(this)"><p class="followText">follow</p></button>
 							</div>
+							<button class="suggestItemButton"></button>
 						</li>
 						<li class="suggestItem">
 							<div class="suggestSubItem">
@@ -213,6 +215,7 @@
 							<div class="suggestSubItem">
 								<button onclick="suggestClick(this)"><p class="followText">follow</p></button>
 							</div>
+							<button class="suggestItemButton"></button>
 						</li>
 						<li class="suggestItem">
 							<div class="suggestSubItem">
@@ -224,6 +227,7 @@
 							<div class="suggestSubItem">
 								<button onclick="suggestClick(this)"><p class="followText">follow</p></button>
 							</div>
+							<button class="suggestItemButton"></button>
 						</li>
 						<li class="suggestItem">
 							<div class="suggestSubItem">
@@ -235,6 +239,7 @@
 							<div class="suggestSubItem">
 								<button onclick="suggestClick(this)"><p class="followText">follow</p></button>
 							</div>
+							<button class="suggestItemButton"></button>
 						</li>
 					</ul>
 				</div>

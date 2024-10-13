@@ -4,19 +4,19 @@
 			<p>&copy; 2024 Teassr</p>
 		</div>
 		<div class="footerItem">
-			<a href="../../../../about.php">About</a>
+			<a href="about.php">About</a>
 		</div>
 		<div class="footerItem">
-			<a href="../../../../faq.php">FAQ</a>
+			<a href="faq.php">FAQ</a>
 		</div>
 		<div class="footerItem">
-			<a href="../../../../contactUs.php">Contact Us</a>
+			<a href="contactUs.php">Contact Us</a>
 		</div>
 		<div class="footerItem">
-			<a href="../../../../termsAndPrivacy.php">Terms & Privacy</a>
+			<a href="termsAndPrivacy.php">Terms & Privacy</a>
 		</div>
 		<div class="footerItem">
-			<a href="../../../../dmca.php">DMCA</a>
+			<a href="dmca.php">DMCA</a>
 		</div>
 	</div>
 </footer>

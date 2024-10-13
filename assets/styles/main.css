@@ -309,8 +309,20 @@ textarea:focus {
 #suggestSection .container .suggestUsername{
 	margin-top: 7px;
 }
+#suggestSection .container .suggestItemButton{
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 0px;
+	border: none;
+	width: 100%;
+	height: 100%;
+	z-index: 9;
+	background-color: transparent;
+}
 
 #suggestSection .container .suggestItem {
+	position: relative;
 	overflow: hidden;
 	width: 100%;
 	height: 6%;
@@ -348,6 +360,7 @@ textarea:focus {
 #suggestSection .container .suggestItem .suggestSubItem:nth-of-type(3) {
 	align-self: center;
 	flex: 1 1 20%;
+	z-index: 10;
 }
 
 #suggestSection .container .suggestItem .suggestImg {
@@ -697,6 +710,75 @@ textarea:focus {
 	font-size: 20px;
 }
 
+/*account page*/
+.accountPage{
+	width: 100%;
+	height: 86%;
+
+}
+.accountPage .container{
+	padding: 15px;
+	width: 60%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+
+}
+.accountPage .accountUsername{
+	font-size: 20px;
+}
+.accountPage .container .accountItem{
+	margin-bottom: 10px;
+}
+.accountPage .container .accountItem:nth-of-type(4){
+	align-self: center;
+	width: 90%;
+	min-width: 280px;
+}
+.accountPage .container .accountItem .accountPosts{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	overflow-y: auto;
+	margin-bottom: 200px;
+}
+.accountPage .container .accountItem .accountPosts .accountPost{
+	min-width: 280px;
+	min-height: 280px;
+	width: 280px;
+	height: 280px;
+	position: relative;
+}
+.accountPage .container .accountItem .accountPosts .accountPost .accountPostButton{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	border: none;
+	border-radius: 0px;
+	z-index: 1;
+	background-color: transparent;
+}
+.accountPage .container .accountItem .accountPosts .accountPost img{
+	height: 350px;
+}
+.accountPage .container .accountItem .accountPosts .accountPost div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	border: 1px solid var(--mainBackgroundColor);
+}
+.accountPage .container .accountItem .accountPFP{
+	height: 160px;
+	max-width: 160px;
+	max-height: 160px;
+	border-radius: 50%;
+}
 
 
 
@@ -920,7 +1002,7 @@ textarea:focus {
 #postModal{
 	display: none;
 	position: fixed;
-	z-index: 1;
+	z-index: 999;
 	padding-top: 80px;
 	left: 0;
 	top: 0;

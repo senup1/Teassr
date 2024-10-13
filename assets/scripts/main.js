@@ -59,6 +59,21 @@ function closePostModal(){
 	document.getElementById("postModal").style.display = "none";
 }
 
+/* account post Modal code */
+function accountPostClick(button){
+	const post = button.parentElement.parentElement.parentElement.parentElement;
+	const username = document.querySelector('.' + post.className + ' .accountUsername').textContent;
+	const imgSrc = button.parentElement.children[0].src;
+
+	document.getElementById("postModalUser").textContent = "by: " + username;
+	document.getElementById("postModalImg").src = imgSrc;
+
+	document.getElementById("postModal").style.display = "block";
+}
+function closePostModal(){
+	document.getElementById("postModal").style.display = "none";
+}
+
 
 
 /*dashboard page code*/
