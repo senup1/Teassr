@@ -43,6 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 			if (password_verify($password, $hashedPassword)) {
 				$_SESSION['user_id'] = $userId;
 				$_SESSION['username'] = $fetchedUsername;
+				$_SESSION['logged'] = true;
 				header('Location: ../../dashboard.php');
 				exit();
 			} else {
