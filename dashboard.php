@@ -203,7 +203,7 @@
 							<div class="suggestSubItem">
 								<button onclick="suggestClick(this)"><p class="followText">follow</p></button>
 							</div>
-							<button class="suggestItemButton"></button>
+							<button class="suggestItemButton" onclick="window.open('hisPumpkin4.php', '_self')"></button>
 						</li>
 						<li class="suggestItem">
 							<div class="suggestSubItem">
@@ -215,7 +215,7 @@
 							<div class="suggestSubItem">
 								<button onclick="suggestClick(this)"><p class="followText">follow</p></button>
 							</div>
-							<button class="suggestItemButton"></button>
+							<button class="suggestItemButton" onclick="window.open('holleratyaboy140.php', '_self')"></button>
 						</li>
 						<li class="suggestItem">
 							<div class="suggestSubItem">
@@ -227,7 +227,7 @@
 							<div class="suggestSubItem">
 								<button onclick="suggestClick(this)"><p class="followText">follow</p></button>
 							</div>
-							<button class="suggestItemButton"></button>
+							<button class="suggestItemButton" onclick="window.open('animelover2000.php', '_self')"></button>
 						</li>
 						<li class="suggestItem">
 							<div class="suggestSubItem">
@@ -239,7 +239,7 @@
 							<div class="suggestSubItem">
 								<button onclick="suggestClick(this)"><p class="followText">follow</p></button>
 							</div>
-							<button class="suggestItemButton"></button>
+							<button class="suggestItemButton" onclick="window.open('joshuagale.exe.php', '_self')"></button>
 						</li>
 					</ul>
 				</div>
