@@ -811,7 +811,7 @@ textarea:focus {
 	height: 100%;
 	display: flex;
 	align-items: center;
-	background-color: rgba(0, 0, 0, .2);
+	background-color: rgba(0, 0, 0, .3);
 	visibility: hidden;
 	position: fixed;
 
@@ -925,7 +925,7 @@ textarea:focus {
 	height: 100%;
 	display: flex;
 	align-items: center;
-	background-color: rgba(0, 0, 0, .2);
+	background-color: rgba(0, 0, 0, .3);
 	visibility: hidden;
 	position: fixed;
 
