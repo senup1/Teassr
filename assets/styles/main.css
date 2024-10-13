@@ -245,34 +245,25 @@ textarea:focus {
 
 #postSection .container {
 	display: flex;
-	flex-direction: column;
 	height: 100%;
 	justify-content: space-evenly;
+	flex-wrap: wrap;
 	padding-top: 4px;
 	overflow: auto;
-	overflow-y: auto;
 }
 
-#postSection .container .postRow {
-	padding: 2px;
-	width: 100%;
-	flex: 1;
-	display: flex;
-	border: 1px solid blue;
-	justify-content: space-evenly;
-	align-items: center;
-
-}
-#postSection .container .postRow .postItem{
-	height: 100%;
+#postSection .container .postItem {
+	height: 30%;
 	min-height: 190px;
+	min-width: 300px;
+	width: 32.6%;
 	border-radius: 10px;
 	position: relative;
 	overflow: hidden;
-	margin: 0 2px;
+	margin-top: 6px;
 }
 
-#postSection .container .postRow .postItem .postTitle {
+#postSection .container .postItem .postTitle {
 	font-size: 20px;
 	position: absolute;
 	top: 3%;
@@ -280,10 +271,12 @@ textarea:focus {
 	text-shadow: 0px 0px 5px black;
 }
 
-#postSection .container .postRow .postItem .postImg {
+#postSection .container .postItem .postImg {
 	height: 100%;
 	border-radius: 10px;
-	max-height: 254px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /*suggested followers section*/
@@ -295,7 +288,6 @@ textarea:focus {
 
 #suggestSection #suggestSectionTitle {
 	margin-top: 8px;
-	margin-bottom: 20px;
 }
 
 #suggestSection .container {
@@ -314,7 +306,8 @@ textarea:focus {
 	height: 6%;
 	min-height: 60px;
 	min-width: 244px;
-	margin-bottom: 8%;
+	margin-top: 8px;
+	margin-bottom: 6%;
 	display: flex;
 	height: 8%;
 	background-color: rgb(83, 83, 83);
