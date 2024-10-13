@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="LMItem">
 			<button id="LMCloseButton">
-				<p>X</p>
+				<p>&times;</p>
 			</button>
 		</div>
 		<div class="LMItem">

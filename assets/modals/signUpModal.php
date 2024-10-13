@@ -2,7 +2,7 @@
 		<div id="signUpModal" style="<?= isset($_SESSION['SUModalOpen']) ? 'visibility: visible;' : 'visibility: hidden;'; ?>">
 			<div class="container">
 				<div class="SUMItem">
-					<button id="SUMCloseButton"><p>X</p></button>
+					<button id="SUMCloseButton"><p>&times;</p></button>
 				</div>
 				<div class="SUMItem">
 					<img class="logo" src="/assets/imgs/bow1-removebg-inverted.png" alt="oops">

@@ -15,6 +15,7 @@
     if ($prep->num_rows > 0) {
         $prep->bind_result($fetchedEmail, $fetchedBio);
         $prep->fetch();}
+    $conn->close();
 ?>
 
 <title>Teassr Profile</title>
@@ -40,10 +41,12 @@
                             <input type="text" name="username" placeholder="<?php echo $_SESSION['username'] ?>">
                             <button>Change</button>
                         </div>
+                        <div style="color: red;"><?= isset($_SESSION['usernameErr']) ? $_SESSION['usernameErr'] : ''; ?></div>
                         <div class="profileSubItem">
                             <input type="email" name="email" placeholder="<?php echo $fetchedEmail ?>">
                             <button>Change</button>
                         </div>
+                        <div style="color: red;"><?= isset($_SESSION['emailErr']) ? $_SESSION['emailErr'] : ''; ?></div>
                         <div class="profileSubItem">
                             <textarea placeholder="<?php if(empty($fetchedBio)){echo 'Enter Bio';}else{echo $fetchedBio;} ?>" id="bio"  name="bio" rows="5"></textarea>
                             <button>Change</button>
@@ -53,6 +56,10 @@
 
             </div>
         </section>
+        <?php
+			unset($_SESSION['usernameErr']);
+			unset($_SESSION['emailErr']);
+		?>
 
         
 <?php include 'assets/inc/footer.php' ?>

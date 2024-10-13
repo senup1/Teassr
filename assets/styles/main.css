@@ -721,6 +721,9 @@ textarea:focus {
 	position: fixed;
 
 }
+#loginModal .container #LMCloseButton{
+	font-size: 25px;
+}
 
 #loginModal .container {
 	background-color: #393939;
@@ -820,6 +823,9 @@ textarea:focus {
 	visibility: hidden;
 	position: fixed;
 
+}
+#signUpModal .container #SUMCloseButton{
+	font-size: 25px;
 }
 
 #signUpModal .container {
