@@ -756,6 +756,13 @@ textarea:focus {
 	height: 280px;
 	position: relative;
 }
+.accountPage .container .accountItem .accountPosts .accountPost:hover img{
+	height: 320px;
+}
+.accountPage .container .accountItem .accountPosts .accountPost:hover{
+	filter: drop-shadow(4px 4px 6px #000000);
+	z-index: 998;
+}
 .accountPage .container .accountItem .accountPosts .accountPost .accountPostButton{
 	position: absolute;
 	width: 100%;
