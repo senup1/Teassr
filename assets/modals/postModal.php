@@ -13,4 +13,5 @@
             <img id="postModalImg" src="" alt="Post Image">
         </div>
     </div>
+    <button class="postModalButton" onclick="closePostModal()"></button>
 </div>
