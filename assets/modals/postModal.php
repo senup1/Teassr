@@ -1,8 +1,6 @@
 <div id="postModal">
     <div class="postModalContent">
-        <div class="postModalItem">
-            <span class="closePostModal" onclick="closePostModal()">&times;</span>
-        </div>
+        <span class="closePostModal" onclick="closePostModal()">&times;</span>
         <div class="postModalItem">
             <p id="postModalTitle"></p>
         </div>
