@@ -306,7 +306,7 @@ textarea:focus {
 	justify-content: start;
 }
 
-#suggestSection .container p {
+#suggestSection .container .suggestUsername{
 	margin-top: 7px;
 }
 

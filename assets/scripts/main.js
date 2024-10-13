@@ -217,3 +217,16 @@ if(SUMPassInput){
 
 
 
+
+
+/* suggested Account follow button*/
+function suggestClick(button){
+	const postText = button.children[0];
+	//const postText = document.querySelector('.' + suggestedPost.className + ' .followText');
+	if(postText.textContent == "unfollow"){
+		postText.textContent = "follow";
+	}
+	else{
+		postText.textContent = "unfollow";
+	};
+}

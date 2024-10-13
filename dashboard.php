@@ -186,10 +186,10 @@
 								<img class="suggestImg" src="assets/imgs/pfps/pfp1.png">
 							</div>
 							<div class="suggestSubItem">
-								<p>bokchoy1.uwu</p>
+								<p class="suggestUsername">bokchoy1.uwu</p>
 							</div>
 							<div class="suggestSubItem">
-								<button>follow</button>
+								<button onclick="suggestClick(this)"><p class="followText">follow</p></button>
 							</div>
 						</li>
 						<li class="suggestItem">
@@ -197,10 +197,10 @@
 								<img class="suggestImg" src="assets/imgs/pfps/pfp2.png">
 							</div>
 							<div class="suggestSubItem">
-								<p>hisPumpkin4</p>
+								<p class="suggestUsername">hisPumpkin4</p>
 							</div>
 							<div class="suggestSubItem">
-								<button>follow</button>
+								<button onclick="suggestClick(this)"><p class="followText">follow</p></button>
 							</div>
 						</li>
 						<li class="suggestItem">
@@ -208,10 +208,10 @@
 								<img class="suggestImg" src="assets/imgs/pfps/pfp3.png">
 							</div>
 							<div class="suggestSubItem">
-								<p>holleratyaboy140</p>
+								<p class="suggestUsername">holleratyaboy140</p>
 							</div>
 							<div class="suggestSubItem">
-								<button>follow</button>
+								<button onclick="suggestClick(this)"><p class="followText">follow</p></button>
 							</div>
 						</li>
 						<li class="suggestItem">
@@ -219,10 +219,10 @@
 								<img class="suggestImg" src="assets/imgs/pfps/pfp4.png">
 							</div>
 							<div class="suggestSubItem">
-								<p>animelover2000</p>
+								<p class="suggestUsername">animelover2000</p>
 							</div>
 							<div class="suggestSubItem">
-								<button>follow</button>
+								<button onclick="suggestClick(this)"><p class="followText">follow</p></button>
 							</div>
 						</li>
 						<li class="suggestItem">
@@ -230,10 +230,10 @@
 								<img class="suggestImg" src="assets/imgs/pfps/pfp5.png">
 							</div>
 							<div class="suggestSubItem">
-								<p>joshuagale.exe</p>
+								<p class="suggestUsername">joshuagale.exe</p>
 							</div>
 							<div class="suggestSubItem">
-								<button>follow</button>
+								<button onclick="suggestClick(this)"><p class="followText">follow</p></button>
 							</div>
 						</li>
 					</ul>
