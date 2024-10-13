@@ -1,41 +1,19 @@
 /*login modal code*/
-let loginButton = document.querySelector('#MPLoginButton');
-
-if(loginButton){
-	let loginModal = document.querySelector('#loginModal');
-	let loginModalCloseButton = document.querySelector('#LMCloseButton');
-
-	loginButton.addEventListener('click', function(e){
-		loginModal.style.visibility = 'visible';
-	});
-	loginModalCloseButton.addEventListener('click', function(e){
-		loginModal.style.visibility = 'hidden';
-	});
+function openLoginModal(){
+	document.querySelector('#loginModal').style.visibility = 'visible';
+}
+function closeLoginModal(){
+	document.querySelector('#loginModal').style.visibility = 'hidden';
 }
 
 
 
 /*sign up modal code*/
-let signUpButton = document.querySelector('#MPSignUpButton');
-
-if(signUpButton){
-	let signUpModal = document.querySelector('#signUpModal');
-	let signUpModalCloseButton = document.querySelector('#SUMCloseButton');
-
-	signUpButton.addEventListener('click', function(e){
-		signUpModal.style.visibility = 'visible';
-	});
-	signUpModalCloseButton.addEventListener('click', function(e){
-		signUpModal.style.visibility = 'hidden';
-	});
-
-	window.onclick = function(e){
-		if(e.target === loginModal || e.target === signUpModal){
-			loginModal.style.visibility = 'hidden';
-			signUpModal.style.visibility = 'hidden';
-		}
-		
-	};
+function openSignUpModal(){
+	document.querySelector('#signUpModal').style.visibility = 'visible';
+}
+function closeSignUpModal(){
+	document.querySelector('#signUpModal').style.visibility = 'hidden';
 }
 
 

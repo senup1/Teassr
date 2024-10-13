@@ -1,9 +1,7 @@
 <div id="loginModal" style="<?= isset($_SESSION['modalOpen']) ? 'visibility: visible;' : 'visibility: hidden;'; ?>">
 	<div class="container">
 		<div class="LMItem">
-			<button id="LMCloseButton">
-				<p>&times;</p>
-			</button>
+			<button id="LMCloseButton" onclick="closeLoginModal()"><p>&times;</p></button>
 		</div>
 		<div class="LMItem">
 			<img class="logo" src="/assets/imgs/bow1-removebg-inverted.png" alt="oops">
@@ -31,6 +29,7 @@
 		</div>
 
 	</div>
+	<button id="loginModalOffClick" onclick="closeLoginModal()"></button>
 </div>
 <?php
 unset($_SESSION['usernameErr']);

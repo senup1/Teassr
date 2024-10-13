@@ -13,10 +13,10 @@
 			<div class="container">
 				<div id="MPOptions" class="MPItem">
 					<div class="MPSubItem">
-						<button id="MPLoginButton">Login</button>
+						<button id="MPLoginButton" onclick="openLoginModal()">Login</button>
 					</div>
 					<div class="MPSubItem">
-						<button id="MPSignUpButton">Sign Up</button>
+						<button id="MPSignUpButton" onclick="openSignUpModal()">Sign Up</button>
 					</div>
 					<div class="MPSubItem">
 						<div class="hr"></div>
