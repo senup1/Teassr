@@ -17,7 +17,8 @@
 			<div class="DBItem"></div>
 			<div class="DBItem">
 				<div id="postSection">
-					<ul class="container">
+				<ul class="container">
+					<ul class="postRow">
 						<li class="postItem">
 							<a href="#">
 								<img class="postImg" src="assets/imgs/ppl/ppl1.png">
@@ -36,6 +37,8 @@
 								<p class="postTitle">asdf</p>
 							</a>
 						</li>
+					</ul>
+					<ul class="postRow">
 						<li class="postItem">
 							<a href="#">
 								<img class="postImg" src="assets/imgs/ppl/ppl4.png">
@@ -54,6 +57,8 @@
 								<p class="postTitle">asdf</p>
 							</a>
 						</li>
+					</ul>
+					<ul class="postRow">
 						<li class="postItem">
 							<a href="#">
 								<img class="postImg" src="assets/imgs/ppl/ppl7.png">
@@ -72,6 +77,8 @@
 								<p class="postTitle">asdf</p>
 							</a>
 						</li>
+					</ul>
+					<ul class="postRow">
 						<li class="postItem">
 							<a href="#">
 								<img class="postImg" src="assets/imgs/ppl/ppl10.png">
@@ -91,6 +98,8 @@
 							</a>
 						</li>
 					</ul>
+				</ul>
+
 				</div>
 			</div>
 			<div class="DBItem">
