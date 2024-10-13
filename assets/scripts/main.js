@@ -45,9 +45,9 @@ if(signUpButton){
 function postClick(button){
 	const post = button.parentElement;
 
-	const title = post.getAttribute('data-title');
+	const title = post.children[1].textContent;
 	const user = post.getAttribute('data-user');
-	const imgSrc = post.getAttribute('data-image');
+	const imgSrc = post.children[0].src;
 
 	document.getElementById("postModalTitle").textContent = title;
 	document.getElementById("postModalUser").textContent = "by: " + user;
