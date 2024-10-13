@@ -246,7 +246,7 @@ textarea:focus {
 #postSection .container {
 	display: flex;
 	height: 100%;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	flex-wrap: wrap;
 	padding-top: 4px;
 	overflow: auto;
@@ -255,12 +255,11 @@ textarea:focus {
 #postSection .container .postItem {
 	height: 30%;
 	min-height: 190px;
-	min-width: 300px;
-	width: 32.6%;
 	border-radius: 10px;
 	position: relative;
 	overflow: hidden;
-	margin-top: 6px;
+	margin-top: 10px;
+	display: inline-block;
 }
 
 #postSection .container .postItem .postTitle {
