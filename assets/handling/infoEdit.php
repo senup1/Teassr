@@ -3,8 +3,21 @@
 <?php
 session_start();
 
-$userId = $_SESSION['user_id'];
 
+$tempId = '';
+$sql2 = "SELECT id FROM userInfo WHERE username = ?";
+$prep2 = $conn->prepare($sql2);
+if (!$prep2) {
+    die("Error in preparing statement: " . $conn->error);
+}
+$prep2->bind_param("s", $_SESSION['username']);
+if ($prep2->execute()) {
+    $prep2->store_result();
+    if ($prep2->num_rows > 0) {
+        $prep2->bind_result($tempId);
+        $prep2->fetch();}
+}
+$prep2->close();
 
 if(empty($_POST['username'])){} else {
     $newUsername = $conn->real_escape_string(filter_input(INPUT_POST,
@@ -38,7 +51,7 @@ if(empty($_POST['username'])){} else {
 			unset($_SESSION['usernameErr']);
             $sql = "UPDATE userInfo SET username = ? WHERE id = ?";
             $stmt = $conn->prepare($sql);
-            $stmt->bind_param("si", $newUsername, $userId);
+            $stmt->bind_param("si", $newUsername, $tempId);
             $_SESSION['username'] = $newUsername;
     
             if ($stmt->execute()) {
@@ -66,7 +79,7 @@ if(empty($_POST['email'])){} else{
         unset($_SESSION['emailErr']);
         $sql = "UPDATE userInfo SET email = ? WHERE id = ?";
         $stmt = $conn->prepare($sql);
-        $stmt->bind_param("si", $newEmail, $userId);
+        $stmt->bind_param("si", $newEmail, $tempId);
 
         if ($stmt->execute()) {
             header('Location: ../../../myprofile.php');
@@ -86,7 +99,7 @@ if(empty($_POST['bio'])){} else{
 
     $sql = "UPDATE userInfo SET bio = ? WHERE id = ?";
     $stmt = $conn->prepare($sql);
-    $stmt->bind_param("si", $newBio, $userId);
+    $stmt->bind_param("si", $newBio, $tempId);
     
     if ($stmt->execute()) {
         header('Location: ../../../myprofile.php');

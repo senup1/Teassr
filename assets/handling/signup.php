@@ -61,6 +61,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 		if($prep->execute()){
 			header('Location: ../../dashboard.php');
+			$_SESSION['username'] = $username;
 			exit();
 		}
 		else{

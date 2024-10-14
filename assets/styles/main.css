@@ -822,10 +822,15 @@ textarea:focus {
 	min-width: 270px;
 }
 #messages .container .messagesItem #friendList .friendItem{
-	border: 1px solid purple;
-	height: 20%;
-	max-height: 100px;
+	height: 10%;
+	max-height: 80px;
 	display: flex;
+	align-items: center;
+	padding: 10px;
+	background-color: rgb(83, 83, 83);
+	border-radius: 12px;
+	margin-bottom: 10px;
+	min-height: 58px;
 }
 #messages .container .messagesItem #friendList .friendItem .friendSubItem:nth-of-type(1){
 	flex: 1 0 50px;

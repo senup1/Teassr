@@ -2,13 +2,13 @@
 
 <?php
     $fetchedEmail = $fetchedBio = '';
-    $id = $_SESSION['user_id'];
-    $sql = "SELECT email, bio FROM userInfo WHERE id = ?";
+    $username = $_SESSION['username'];
+    $sql = "SELECT email, bio FROM userInfo WHERE username = ?";
     $prep = $conn->prepare($sql);
     if (!$prep) {
         die("Error in preparing statement: " . $conn->error);
     }
-    $prep->bind_param("i", $id);
+    $prep->bind_param("s", $username);
 	$prep->execute();
 	$prep->store_result();
 

@@ -41,7 +41,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 			$prep->fetch();
 
 			if (password_verify($password, $hashedPassword)) {
-				$_SESSION['user_id'] = $userId;
 				$_SESSION['username'] = $fetchedUsername;
 				$_SESSION['logged'] = true;
 				header('Location: ../../dashboard.php');
