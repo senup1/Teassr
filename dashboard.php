@@ -188,9 +188,12 @@
 								<p class="suggestUsername">bokchoy1.uwu</p>
 							</div>
 							<div class="suggestSubItem">
-								<button onclick="suggestClick(this)"><p class="followText">follow</p></button>
+								<button onclick="suggestClick(this)">
+									<p class="followText">follow</p>
+								</button>
 							</div>
-							<button class="suggestItemButton" onclick="window.open('bokchoy1.uwu.php', '_self')"></button>
+							<button class="suggestItemButton"
+								onclick="window.open('bokchoy1.uwu.php', '_self')"></button>
 						</li>
 						<li class="suggestItem">
 							<div class="suggestSubItem">
@@ -200,9 +203,12 @@
 								<p class="suggestUsername">hisPumpkin4</p>
 							</div>
 							<div class="suggestSubItem">
-								<button onclick="suggestClick(this)"><p class="followText">follow</p></button>
+								<button onclick="suggestClick(this)">
+									<p class="followText">follow</p>
+								</button>
 							</div>
-							<button class="suggestItemButton" onclick="window.open('hisPumpkin4.php', '_self')"></button>
+							<button class="suggestItemButton"
+								onclick="window.open('hisPumpkin4.php', '_self')"></button>
 						</li>
 						<li class="suggestItem">
 							<div class="suggestSubItem">
@@ -212,9 +218,12 @@
 								<p class="suggestUsername">holleratyaboy140</p>
 							</div>
 							<div class="suggestSubItem">
-								<button onclick="suggestClick(this)"><p class="followText">follow</p></button>
+								<button onclick="suggestClick(this)">
+									<p class="followText">follow</p>
+								</button>
 							</div>
-							<button class="suggestItemButton" onclick="window.open('holleratyaboy140.php', '_self')"></button>
+							<button class="suggestItemButton"
+								onclick="window.open('holleratyaboy140.php', '_self')"></button>
 						</li>
 						<li class="suggestItem">
 							<div class="suggestSubItem">
@@ -224,21 +233,27 @@
 								<p class="suggestUsername">animelover2000</p>
 							</div>
 							<div class="suggestSubItem">
-								<button onclick="suggestClick(this)"><p class="followText">follow</p></button>
+								<button onclick="suggestClick(this)">
+									<p class="followText">follow</p>
+								</button>
 							</div>
-							<button class="suggestItemButton" onclick="window.open('animelover2000.php', '_self')"></button>
+							<button class="suggestItemButton"
+								onclick="window.open('animelover2000.php', '_self')"></button>
 						</li>
 						<li class="suggestItem">
 							<div class="suggestSubItem">
 								<img class="suggestImg" src="assets/imgs/pfps/pfp5.png">
 							</div>
 							<div class="suggestSubItem">
-								<p class="suggestUsername">joshuagale.exe</p>
+								<p class="suggestUsername">o0br4nd0n0o</p>
 							</div>
 							<div class="suggestSubItem">
-								<button onclick="suggestClick(this)"><p class="followText">follow</p></button>
+								<button onclick="suggestClick(this)">
+									<p class="followText">follow</p>
+								</button>
 							</div>
-							<button class="suggestItemButton" onclick="window.open('joshuagale.exe.php', '_self')"></button>
+							<button class="suggestItemButton"
+								onclick="window.open('joshuagale.exe.php', '_self')"></button>
 						</li>
 					</ul>
 				</div>
