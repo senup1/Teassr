@@ -793,6 +793,53 @@ textarea:focus {
 	border-radius: 50%;
 }
 
+/*messages page*/
+#messages{
+	height: 86%;
+	width: 100%;
+}
+#messages .container{
+	height: 100%;
+	width: 62%;
+	min-width: 600px;
+	display: flex;
+}
+#messages .container .messagesItem{
+	border: 1px solid pink;
+	height: 100%;
+
+}
+#messages .container .messagesItem:nth-of-type(1){
+	flex: 3 0 270px;
+}
+#messages .container .messagesItem:nth-of-type(2){
+	flex: 7 0 540px;
+}
+#messages .container .messagesItem #friendList{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	min-width: 270px;
+}
+#messages .container .messagesItem #friendList .friendItem{
+	border: 1px solid purple;
+	height: 20%;
+	max-height: 100px;
+	display: flex;
+}
+#messages .container .messagesItem #friendList .friendItem .friendSubItem:nth-of-type(1){
+	flex: 1 0 50px;
+}
+#messages .container .messagesItem #friendList .friendItem .friendSubItem:nth-of-type(2){
+	flex: 9 0 220px;
+	border: 1px solid yellow;
+}
+#messages .container .messagesItem #friendList .friendItem .messageItemPFP{
+	max-height: 50px;
+	max-width: 50px;
+	border-radius: 50%;
+}
+
 
 
 
