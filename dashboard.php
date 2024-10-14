@@ -245,7 +245,7 @@
 								<img class="suggestImg" src="assets/imgs/pfps/pfp5.png">
 							</div>
 							<div class="suggestSubItem">
-								<p class="suggestUsername">o0br4nd0n0o</p>
+								<p class="suggestUsername">joshuagale.exe</p>
 							</div>
 							<div class="suggestSubItem">
 								<button onclick="suggestClick(this)">
