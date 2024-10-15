@@ -233,4 +233,13 @@ function conversationSelection(button){
 		element.style.background = "transparent";
 	});
 	friendItem.style.background = "rgb(83, 83, 83)";
+
+
+	/* code for modal changes based on selected convo */
+	document.querySelector('.convImg').src=friendItem.children[0].children[0].src;
+	document.querySelector('.convUsername').textContent=friendItem.children[1].children[0].textContent;
+	let messagePFPs = document.querySelectorAll('.messagePFP');
+	messagePFPs.forEach(function(pfp){
+		pfp.src=friendItem.children[0].children[0].src;
+	});
 }

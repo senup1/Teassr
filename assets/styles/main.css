@@ -1296,6 +1296,8 @@ textarea:focus {
 	align-items: center;
 }
 #convSection #convMiddle #conversation .convItem .messagePFP{
+	width: 28px;
+	height: 28px;
 	max-height: 28px;
 	max-width: 28px;
 	border-radius: 50%;
