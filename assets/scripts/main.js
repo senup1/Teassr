@@ -298,3 +298,18 @@ function conversationSelection(button){
 	
 
 }
+
+
+/* fix scroll on messages page */
+function scrollFix(){
+	if(window.location.pathname === '/messages.php'){
+		function scrollToBottom(){
+			const chatContainer = document.getElementById('convMiddle');
+			chatContainer.scrollTop = chatContainer.scrollHeight;
+		}
+	
+		scrollToBottom();
+	}
+}
+window.onload = scrollFix;
+

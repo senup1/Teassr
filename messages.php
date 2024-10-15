@@ -2,9 +2,11 @@
 
 <?php
     if($_SERVER['REQUEST_METHOD'] == 'POST') {
-        if(empty($_POST['sms'])){}
-        else{
-            $_SESSION['numMessages']++;
+        if($_SESSION['numMessages'] > 39){
+            $_SESSION['numMessages'] = 0;
+        }
+        if(!empty($_POST['sms'])){
+            $_SESSION['numMessages']+=2;
         }
     }
     

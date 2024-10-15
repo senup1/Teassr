@@ -50,42 +50,14 @@ Gave proof through the night that our flag was still there.</p>
                     <p>Sorry. I just needed to get that out.</p>
                 </div>
             </li>
-            <?php 
-            if(isset($_SESSION['numMessages']) && $_SESSION['numMessages']>=1){echo '
-                <li class="convItem">
-                    <div class="convSubItem">
-                        <p>OMG it\'s been so long. Whats up??</p>
-                    </div>
-                </li>
-                <li class="convItem">
-                    <img src="assets/imgs/pfps/pfp7.png" class="messagePFP"> 
-                    <div class="convSubItem">
-                        <p>I\'m gonna be honest. I forgot you existed brutha.</p>
-                    </div>
-                </li>'
-            ;}else{}
-            if(isset($_SESSION['numMessages']) && $_SESSION['numMessages']>=2){echo '
-                <li class="convItem">
-                    <div class="convSubItem">
-                        <p>no way really? me tooo!!! I just opened Teassr and saw our old convo LOL.</p>
-                    </div>
-                </li>
-                <li class="convItem">
-                    <img src="assets/imgs/pfps/pfp7.png" class="messagePFP"> 
-                    <div class="convSubItem">
-                        <p>Well I have some time. Let\'s catch up.</p>
-                    </div>
-                </li>'
-            ;}else{}
-                
-            ?>
+            <?php include 'assets/inc/defaultMessages.php'; ?>
         </ul>
     </div>
     <div id="convBottom">
         <form id="messageForm" method="POST">
             <input name="sms" id="messageField" type="text" placeholder="Message...">
             <div id="sendButtonHolder">
-                <button type="submit">Send</button>
+                <button type="submit" onclick="scrollFix()">Send</button>
             </div>
         </form>
     </div>
