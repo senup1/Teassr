@@ -30,7 +30,7 @@
                         </div>
                         <div class="friendSubItem">
                             <p class="messageItemUsername">goldenApple43</p>
-                            <p class="lastMessage">OMG I JUST FOUND A NOTCH APPLE!</p>
+                            <p class="lastMessage">Sorry. I just needed to get that out.</p>
                         </div>
                         <div class="backgroundFix"></div>
                         <button class="conversationSelection" onclick="conversationSelection(this)"></button>                       
@@ -41,7 +41,7 @@
                         </div>
                         <div class="friendSubItem">
                             <p class="messageItemUsername">GoatGIRL1999</p>
-                            <p class="lastMessage">cows aren't even that great</p>
+                            <p class="lastMessage">Cows aren’t even that great.</p>
                         </div>
                         <div class="backgroundFix"></div>
                         <button class="conversationSelection" onclick="conversationSelection(this)"></button>
@@ -52,7 +52,7 @@
                         </div>
                         <div class="friendSubItem">
                             <p class="messageItemUsername">JimmyNeutron</p>
-                            <p class="lastMessage">we're going to the moon tonight</p>
+                            <p class="lastMessage">We’re going to the moon tonight.</p>
                         </div>
                         <div class="backgroundFix"></div>
                         <button class="conversationSelection" onclick="conversationSelection(this)"></button>
@@ -63,7 +63,7 @@
                         </div>
                         <div class="friendSubItem">
                             <p class="messageItemUsername">PowerpuffCheerio</p>
-                            <p class="lastMessage">I couldn't have imagined such a betrayal</p>
+                            <p class="lastMessage">I couldn't have imagined such a betrayal.</p>
                         </div>
                         <div class="backgroundFix"></div>
                         <button class="conversationSelection" onclick="conversationSelection(this)"></button>
@@ -74,7 +74,7 @@
                         </div>
                         <div class="friendSubItem">
                             <p class="messageItemUsername">NetheriteGOD69</p>
-                            <p class="lastMessage">lol i just got full Netherite.</p>
+                            <p class="lastMessage">Lol I just got full netherite.</p>
                         </div>
                         <div class="backgroundFix"></div>
                         <button class="conversationSelection" onclick="conversationSelection(this)"></button>

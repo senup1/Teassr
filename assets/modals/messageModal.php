@@ -9,66 +9,71 @@
             <li class="convItem">
                 <img src="assets/imgs/pfps/pfp7.png" class="messagePFP"> 
                 <div class="convSubItem">
-                    <p>message me</p>
+                    <p>Hey, how's it going?</p>
                 </div>
             </li>
             <li class="convItem">
                 <div class="convSubItem">
-                    <p>message you</p>
-                </div>
-            </li>
-            <li class="convItem">
-                <img src="assets/imgs/pfps/pfp7.png" class="messagePFP"> 
-                <div class="convSubItem">
-                    <p>message me</p>
-                </div>
-            </li>
-            <li class="convItem">
-                <div class="convSubItem">
-                    <p>message you</p>
+                    <p>Pretty well. Thanks for asking. What about you?</p>
                 </div>
             </li>
             <li class="convItem">
                 <img src="assets/imgs/pfps/pfp7.png" class="messagePFP"> 
                 <div class="convSubItem">
-                    <p>message me</p>
+                    <p>Honestly, not too well. I lost my car key :(</p>
                 </div>
             </li>
             <li class="convItem">
                 <div class="convSubItem">
-                    <p>message you</p>
+                    <p>Sorry to hear that broski. I hope you find it soon. I'm praying for you.</p>
                 </div>
             </li>
             <li class="convItem">
                 <img src="assets/imgs/pfps/pfp7.png" class="messagePFP"> 
                 <div class="convSubItem">
-                    <p>message me</p>
+                    <p>Oh say can you see, by the dawn's early light,
+What so proudly we hail'd at the twilight's last gleaming,
+Whose broad stripes and bright stars through the perilous fight
+Oh the ramparts we watch'd were so gallantly streaming?
+And the rocket's red glare, the bomb bursting in air,
+Gave proof through the night that our flag was still there.</p>
+                </div>
+            </li>
+            <li class="convItem">
+                <div class="convSubItem">
+                    <p>Um. Okay.</p>
+                </div>
+            </li>
+            <li class="convItem">
+                <img src="assets/imgs/pfps/pfp7.png" class="messagePFP"> 
+                <div class="convSubItem">
+                    <p>Sorry. I just needed to get that out.</p>
                 </div>
             </li>
             <?php 
             if(isset($_SESSION['numMessages']) && $_SESSION['numMessages']>=1){echo '
                 <li class="convItem">
                     <div class="convSubItem">
-                        <p> omg no way whats up </p>
+                        <p>OMG it\'s been so long. Whats up??</p>
                     </div>
                 </li>
                 <li class="convItem">
                     <img src="assets/imgs/pfps/pfp7.png" class="messagePFP"> 
                     <div class="convSubItem">
-                        <p>if this works thatd be crazyyyy</p>
+                        <p>I\'m gonna be honest. I forgot you existed brutha.</p>
                     </div>
                 </li>'
             ;}else{}
             if(isset($_SESSION['numMessages']) && $_SESSION['numMessages']>=2){echo '
                 <li class="convItem">
                     <div class="convSubItem">
-                        <p> no way really? me tooo!!!</p>
+                        <p>no way really? me tooo!!! I just opened Teassr and saw our old convo LOL.</p>
                     </div>
                 </li>
                 <li class="convItem">
                     <img src="assets/imgs/pfps/pfp7.png" class="messagePFP"> 
                     <div class="convSubItem">
-                        <p>its still working omg omg</p>
+                        <p>Well I have some time. Let\'s catch up.</p>
                     </div>
                 </li>'
             ;}else{}

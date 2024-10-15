@@ -1281,11 +1281,10 @@ textarea:focus {
 #convSection #convMiddle #conversation .convItem .convSubItem{
 	height: 100%;
 	padding: 8px;
-	max-width: 42%;
+	max-width: 43%;
 	border-radius: 10px;
 	border: 1px solid #ffffff;
 	display: inline-block;
-	word-break: break-all;
 	overflow-wrap: break-word;
 }
 #convSection #convMiddle #conversation .convItem:nth-child(even) .convSubItem{
