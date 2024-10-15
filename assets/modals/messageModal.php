@@ -46,10 +46,10 @@
                 </div>
             </li>
             <?php 
-            if($numMessages>=1){echo '
+            if(isset($_SESSION['numMessages']) && $_SESSION['numMessages']>=1){echo '
                 <li class="convItem">
                     <div class="convSubItem">
-                        <p>' . $userMessage . '</p>
+                        <p> omg no way whats up </p>
                     </div>
                 </li>
                 <li class="convItem">
@@ -59,10 +59,10 @@
                     </div>
                 </li>'
             ;}else{}
-            if($numMessages>=2){echo '
+            if(isset($_SESSION['numMessages']) && $_SESSION['numMessages']>=2){echo '
                 <li class="convItem">
                     <div class="convSubItem">
-                        <p>' . $userMessage . '</p>
+                        <p> no way really? me tooo!!!</p>
                     </div>
                 </li>
                 <li class="convItem">

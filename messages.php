@@ -1,18 +1,15 @@
+<?php include 'assets/inc/header.php' ?>
+
 <?php
-    $_SESSION['numMessages'] = 0;
-    $userMessage = '';
     if($_SERVER['REQUEST_METHOD'] == 'POST') {
         if(empty($_POST['sms'])){}
         else{
             $_SESSION['numMessages']++;
-            $userMessage = filter_input(INPUT_POST,
-            'sms',
-            FILTER_SANITIZE_FULL_SPECIAL_CHARS);
         }
     }
     
 ?>
-<?php include 'assets/inc/header.php' ?>
+
 
 <title>Teassr Messages</title>
 </head>
@@ -36,7 +33,7 @@
                             <p class="lastMessage">OMG I JUST FOUND A NOTCH APPLE!</p>
                         </div>
                         <div class="backgroundFix"></div>
-                        <button class="conversationSelection" onclick="conversationSelection(this)"></button>
+                        <button class="conversationSelection" onclick="conversationSelection(this)"></button>                       
                     </li>
                     <li class="friendItem">
                         <div class="friendSubItem">

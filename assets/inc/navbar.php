@@ -2,6 +2,7 @@
 	if(isset($_POST['logout'])){
 		unset($_SESSION['username']);
 		unset($_SESSION['logged']);
+		unset($_SESSION['numMessages']);
 	}
 ?>
 <nav id="nav">
