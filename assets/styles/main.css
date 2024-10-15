@@ -844,7 +844,7 @@ textarea:focus {
 	position: relative;
 }
 #messages .container .messagesItem #friendList .friendItem:nth-of-type(1){
-	/*to be determined*/
+	background-color: rgb(83, 83, 83);
 }
 #messages .container .messagesItem #friendList .friendItem .backgroundFix{
 	position: absolute;
@@ -1212,10 +1212,9 @@ textarea:focus {
 }
 #convSection #convMiddle{
 	height: 84%;
-	padding: 12px;
+	padding: 12px 22px;
 	width: 100%;
 	min-height: 400px;
-	border: 1px solid blue;
 	overflow-y: auto;
 	-ms-overflow-style: auto;
 	/* for Internet Explorer, Edge */
