@@ -223,3 +223,14 @@ function suggestClick(button){
 		postText.textContent = "unfollow";
 	};
 }
+
+
+/* conversation selected on messages page */
+function conversationSelection(button){
+	let friendItem = button.parentElement;
+	let friendList = document.querySelectorAll('.' + friendItem.className);
+	friendList.forEach(function(element){
+		element.style.background = "transparent";
+	});
+	friendItem.style.background = "rgb(83, 83, 83)";
+}

@@ -20,6 +20,7 @@
 		</div>
 	</div>
 </footer>
+<div class="spaceMaker"></div>
 
 <script src="assets/scripts/main.js"></script>
 </body>
