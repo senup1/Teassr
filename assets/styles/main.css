@@ -634,14 +634,14 @@ textarea:focus {
 	margin-bottom: 10px;
 }
 
-/*my profile page*/
-#profile{
+/*settings page*/
+#settings{
 	width: 100%;
 	height: 86%;
 	display: flex;
 	flex-direction: column;
 }
-#profile .container{
+#settings .container{
 	padding-top: 20px;
 	width: 70%;
 	height: 100%;
@@ -650,26 +650,26 @@ textarea:focus {
 	align-items: center;
 
 }
-#profile .container  .profileItem{
+#settings .container  .settingsItem{
 	margin-bottom: 60px;
 	display: flex;
 	flex-direction: column;
 }
-#profile .container .profileItem #profileImg{
+#settings .container .settingsItem #settingsImg{
 	height: 120px;
 	width: 120px;
 	border-radius: 50%;
 }
-#profile .container  .profileItem .profileSubItem{
+#settings .container  .settingsItem .settingsSubItem{
 	margin-top: 40px;
 	display: flex;
 	align-items: center;
 }
-#profile .container  .profileItem .profileSubItem button{
+#settings .container  .settingsItem .settingsSubItem button{
 	height: 28px;
 	margin-left: 20px;
 }
-#profile .container .profileItem .profileSubItem input{
+#settings .container .settingsItem .settingsSubItem input{
 	width: 260px;
 	background: transparent;
 	font-size: 18px;
@@ -678,7 +678,7 @@ textarea:focus {
 	padding: 9px;
 	color: #ffffff;
 }
-#profile .container .profileItem .profileSubItem textarea {
+#settings .container .settingsItem .settingsSubItem textarea {
 	padding: 9px;
 	width: 260px;
 	font-size: 18px;
@@ -688,7 +688,7 @@ textarea:focus {
 	color: #ffffff;
 	resize: none;
 }
-#profile .container  .profileItem .profileTitle{
+#settings .container  .settingsItem .settingsTitle{
 	font-size: 32px;
 	text-align: center;
 }
@@ -787,6 +787,99 @@ textarea:focus {
 	border: 1px solid var(--mainBackgroundColor);
 }
 .accountPage .container .accountItem .accountPFP{
+	height: 160px;
+	max-width: 160px;
+	max-height: 160px;
+	border-radius: 50%;
+}
+
+/*my profile page*/
+/*account page*/
+.myProfile{
+	width: 100%;
+	height: 86%;
+
+}
+.myProfile .container{
+	padding: 15px;
+	width: 60%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+
+}
+.myProfile #makePost{
+	position: fixed;
+	bottom: 18%;
+	right: 8%;
+	width: 10%;
+	height: 5%;
+	min-height: 40px;
+	min-width: 120px;
+
+	
+}
+.myProfile #makePost button{
+	width: 100%;
+	height: 100%;
+}
+.myProfile .accountUsername{
+	font-size: 20px;
+}
+.myProfile .container .myProfileItem{
+	margin-bottom: 10px;
+}
+.myProfile .container .myProfileItem:nth-of-type(4){
+	align-self: center;
+	width: 90%;
+	min-width: 280px;
+}
+.myProfile .container .myProfileItem .myProfilePosts{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	overflow-y: auto;
+	margin-bottom: 200px;
+}
+.myProfile .container .myProfileItem .myProfilePosts .myProfilePost{
+	min-width: 280px;
+	min-height: 280px;
+	width: 280px;
+	height: 280px;
+	position: relative;
+}
+.myProfile .container .myProfileItem .myProfilePosts .myProfilePost:hover img{
+	height: 320px;
+}
+.myProfile .container .myProfileItem .myProfilePosts .myProfilePost:hover{
+	filter: drop-shadow(4px 4px 6px #000000);
+	z-index: 998;
+}
+.myProfile .container .myProfileItem .myProfilePosts .myProfilePost .accountPostButton{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	border: none;
+	border-radius: 0px;
+	z-index: 1;
+	background-color: transparent;
+}
+.myProfile .container .myProfileItem .myProfilePosts .myProfilePost img{
+	height: 350px;
+}
+.myProfile .container .myProfileItem .myProfilePosts .myProfilePost div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	border: 1px solid var(--mainBackgroundColor);
+}
+.myProfile .container .myProfileItem .accountPFP{
 	height: 160px;
 	max-width: 160px;
 	max-height: 160px;
@@ -1302,6 +1395,82 @@ textarea:focus {
 	border-radius: 50%;
 	margin-right: 6px;
 	margin-bottom: 2px;
+}
+
+/*post presets modal*/
+#postPresetsModal{
+	display: none;
+	position: fixed;
+	z-index: 999;
+	padding-top: 80px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 92%;
+	background-color: rgba(0,0,0,0.8);
+
+}
+#postPresetsModal .postPresetsModalClose{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: -999;
+	top: 0;
+	left: 0;
+	background: transparent;
+	border: none;
+	padding: none;
+	border-radius: 0px;
+}
+#postPresetsModal .postModalContent{
+	background-color: var(--mainBackgroundColor);
+	margin: auto;
+	padding: 20px;
+	border-radius: 8px;
+	height: 98%;
+	width: 56%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow: hidden;
+	position: relative;
+
+}
+#postPresetsModal .postModalContent .postModalItem:nth-of-type(1){
+	flex: 1 5 30px;
+}
+#postPresetsModal .postModalContent .postModalItem:nth-of-type(2){
+	flex: 1 5 20px;
+}
+#postPresetsModal .postModalContent .postModalItem:nth-of-type(3){
+	flex: 8 1 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.closePostModal{
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: bold;
+	position: absolute;
+	top: 2%;
+	right: 2%;
+}
+#postModalTitle{
+	font-size: 20px;
+}
+.closePostModal:hover, .closePostModal:focus{
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+#postPresetsModal img{
+	max-height: 630px;
+	max-width: 1000px;
+	border-radius: 10px;
+	object-fit: contain;
 }
 
 

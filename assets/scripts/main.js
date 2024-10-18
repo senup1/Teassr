@@ -313,3 +313,12 @@ function scrollFix(){
 }
 window.onload = scrollFix;
 
+
+
+/* make post on my profile page */
+function makePost(){
+	document.querySelector('#postPresetsModal').style.display = 'block';
+}
+function closePostPresetModal(){
+	document.querySelector('#postPresetsModal').style.display = 'none';
+}

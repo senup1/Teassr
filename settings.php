@@ -26,28 +26,28 @@
 
 	<div class="spaceMaker"></div>
     
-        <section id="profile">
+        <section id="settings">
             <div class="container">
-                <div class="profileItem">
-                    <p class="profileTitle"><?php echo $_SESSION['username'] ?>'s Profile Settings</p>
+                <div class="settingsItem">
+                    <p class="settingsTitle"><?php echo $_SESSION['username'] ?>'s Profile Settings</p>
                 </div>
-                <div class="profileItem">
-                    <img id="profileImg" src="../../../../assets/imgs/pfps/blankpfp.png">
+                <div class="settingsItem">
+                    <img id="settingsImg" src="../../../../assets/imgs/pfps/blankpfp.png">
                 </div>
 
-                <div class="profileItem">
-                    <form id="profileForm" action="assets/handling/infoEdit.php" method="POST">
-                        <div class="profileSubItem">
+                <div class="settingsItem">
+                    <form id="settingsForm" action="assets/handling/infoEdit.php" method="POST">
+                        <div class="settingsSubItem">
                             <input type="text" name="username" placeholder="<?php echo $_SESSION['username'] ?>">
                             <button>Change</button>
                         </div>
                         <div style="color: red;"><?= isset($_SESSION['usernameErr']) ? $_SESSION['usernameErr'] : ''; ?></div>
-                        <div class="profileSubItem">
+                        <div class="settingsSubItem">
                             <input type="email" name="email" placeholder="<?php echo $fetchedEmail ?>">
                             <button>Change</button>
                         </div>
                         <div style="color: red;"><?= isset($_SESSION['emailErr']) ? $_SESSION['emailErr'] : ''; ?></div>
-                        <div class="profileSubItem">
+                        <div class="settingsSubItem">
                             <textarea placeholder="<?php if(empty($fetchedBio)){echo 'Enter Bio';}else{echo $fetchedBio;} ?>" id="bio"  name="bio" rows="5"></textarea>
                             <button>Change</button>
                         </div>
