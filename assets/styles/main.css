@@ -1340,6 +1340,14 @@ textarea:focus {
 	padding: 21px;
 	border-radius: 50%;
 }
+#nav #messagesIcon{
+	position: absolute;
+	right: 55px;
+	top: 20%;
+	border-radius: 50%;
+	height: 35px;
+	width: 35px;
+}
 
 #nav .container .DNItems {
 	position: absolute;

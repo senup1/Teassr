@@ -44,7 +44,7 @@ if(empty($_POST['username'])){} else {
     
         if (!empty($fetchedId)) {
             $_SESSION['usernameErr'] = 'Username already exists!';
-            header('Location: ../../../myprofile.php');
+            header('Location: ../../../settings.php');
             exit();
         }
         else{
@@ -55,11 +55,11 @@ if(empty($_POST['username'])){} else {
             $_SESSION['username'] = $newUsername;
     
             if ($stmt->execute()) {
-                header('Location: ../../../myprofile.php');
+                header('Location: ../../../settings.php');
                 $conn->close();
                 exit();
             } else {
-                header('Location: ../../../myprofile.php');
+                header('Location: ../../../settings.php');
                 $conn->close();
                 exit();
             }
@@ -82,11 +82,11 @@ if(empty($_POST['email'])){} else{
         $stmt->bind_param("si", $newEmail, $tempId);
 
         if ($stmt->execute()) {
-            header('Location: ../../../myprofile.php');
+            header('Location: ../../../settings.php');
             $conn->close();
 			exit();
         } else {
-            header('Location: ../../../myprofile.php');
+            header('Location: ../../../settings.php');
             $conn->close();
 			exit();
         }
@@ -102,11 +102,11 @@ if(empty($_POST['bio'])){} else{
     $stmt->bind_param("si", $newBio, $tempId);
     
     if ($stmt->execute()) {
-        header('Location: ../../../myprofile.php');
+        header('Location: ../../../settings.php');
         $conn->close();
 		exit();
     } else {
-        header('Location: ../../../myprofile.php');
+        header('Location: ../../../settings.php');
         $conn->close();
 		exit();
     }

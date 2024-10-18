@@ -1,65 +1,105 @@
 <?php include 'assets/inc/header.php' ?>
 
-<?php
-    $fetchedEmail = $fetchedBio = '';
-    $username = $_SESSION['username'];
-    $sql = "SELECT email, bio FROM userInfo WHERE username = ?";
-    $prep = $conn->prepare($sql);
-    if (!$prep) {
-        die("Error in preparing statement: " . $conn->error);
-    }
-    $prep->bind_param("s", $username);
-	$prep->execute();
-	$prep->store_result();
+<title>My Teassr Profile</title>
+</head>
 
-    if ($prep->num_rows > 0) {
-        $prep->bind_result($fetchedEmail, $fetchedBio);
-        $prep->fetch();}
-    $conn->close();
-?>
-
-<title>Teassr Profile</title>
-	</head>
-    <body>
+<body>
 
     <?php include 'assets/inc/navbar.php' ?>
 
 	<div class="spaceMaker"></div>
-    
-        <section id="profile">
-            <div class="container">
-                <div class="profileItem">
-                    <p class="profileTitle"><?php echo $_SESSION['username'] ?>'s Profile</p>
-                </div>
-                <div class="profileItem">
-                    <img id="profileImg" src="../../../../assets/imgs/pfps/blankpfp.png">
-                </div>
 
-                <div class="profileItem">
-                    <form id="profileForm" action="assets/handling/infoEdit.php" method="POST">
-                        <div class="profileSubItem">
-                            <input type="text" name="username" placeholder="<?php echo $_SESSION['username'] ?>">
-                            <button>Change</button>
-                        </div>
-                        <div style="color: red;"><?= isset($_SESSION['usernameErr']) ? $_SESSION['usernameErr'] : ''; ?></div>
-                        <div class="profileSubItem">
-                            <input type="email" name="email" placeholder="<?php echo $fetchedEmail ?>">
-                            <button>Change</button>
-                        </div>
-                        <div style="color: red;"><?= isset($_SESSION['emailErr']) ? $_SESSION['emailErr'] : ''; ?></div>
-                        <div class="profileSubItem">
-                            <textarea placeholder="<?php if(empty($fetchedBio)){echo 'Enter Bio';}else{echo $fetchedBio;} ?>" id="bio"  name="bio" rows="5"></textarea>
-                            <button>Change</button>
-                        </div>
-                    </form>
-                </div>
-
+    <section class="accountPage">
+        <div class="container">
+            <div class="accountItem">
+                <img class="accountPFP" src="assets/imgs/pfps/blankpfp.png">
             </div>
-        </section>
-        <?php
-			unset($_SESSION['usernameErr']);
-			unset($_SESSION['emailErr']);
-		?>
+            <div class="accountItem">
+                <p class="accountUsername"><?php echo $_SESSION['username'] ?></p>
+            </div>
+            <div class="accountItem">
+                <p class="accountBio">bio goes here and there will be quite a bit of text potentially.</p>
+            </div>
+            <div class="accountItem">
+                <ul class="accountPosts">
+                    <li class="accountPost">
+                        <div>
+                            <img class="accountPostImage" src="assets/imgs/ppl/ppl4.png">
+                            <button class="accountPostButton" onclick="accountPostClick(this)"></button>
+                        </div>
+                    </li>
+                    <li class="accountPost">
+                        <div>
+                            <img class="accountPostImage" src="assets/imgs/ppl/ppl5.png">
+                            <button class="accountPostButton" onclick="accountPostClick(this)"></button>
+                        </div>
+                    </li>
+                    <li class="accountPost">
+                        <div>
+                            <img class="accountPostImage" src="assets/imgs/ppl/ppl6.png">
+                            <button class="accountPostButton" onclick="accountPostClick(this)"></button>
+                        </div>
+                    </li>
+                    <li class="accountPost">
+                        <div>
+                            <img class="accountPostImage" src="assets/imgs/ppl/ppl8.png">
+                            <button class="accountPostButton" onclick="accountPostClick(this)"></button>
+                        </div>
+                    </li>
+                    <li class="accountPost">
+                        <div>
+                            <img class="accountPostImage" src="assets/imgs/ppl/ppl9.png">
+                            <button class="accountPostButton" onclick="accountPostClick(this)"></button>
+                        </div>
+                    </li>
+                    <li class="accountPost">
+                        <div>
+                            <img class="accountPostImage" src="assets/imgs/ppl/ppl10.png">
+                            <button class="accountPostButton" onclick="accountPostClick(this)"></button>
+                        </div>
+                    </li>
+                    <li class="accountPost">
+                        <div>
+                            <img class="accountPostImage" src="assets/imgs/ppl/ppl1.png">
+                            <button class="accountPostButton" onclick="accountPostClick(this)"></button>
+                        </div>
+                    </li>
+                    <li class="accountPost">
+                        <div>
+                            <img class="accountPostImage" src="assets/imgs/ppl/ppl2.png">
+                            <button class="accountPostButton" onclick="accountPostClick(this)"></button>
+                        </div>
+                    </li>
+                    <li class="accountPost">
+                        <div>
+                            <img class="accountPostImage" src="assets/imgs/ppl/ppl3.png">
+                            <button class="accountPostButton" onclick="accountPostClick(this)"></button>
+                        </div>
+                    </li>
+                    <li class="accountPost">
+                        <div>
+                            <img class="accountPostImage" src="assets/imgs/ppl/ppl1.png">
+                            <button class="accountPostButton" onclick="accountPostClick(this)"></button>
+                        </div>
+                    </li>
+                    <li class="accountPost">
+                        <div>
+                            <img class="accountPostImage" src="assets/imgs/ppl/ppl2.png">
+                            <button class="accountPostButton" onclick="accountPostClick(this)"></button>
+                        </div>
+                    </li>
+                    <li class="accountPost">
+                        <div>
+                            <img class="accountPostImage" src="assets/imgs/ppl/ppl3.png">
+                            <button class="accountPostButton" onclick="accountPostClick(this)"></button>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </section>
 
-        
-<?php include 'assets/inc/footer.php' ?>
+    <?php include 'assets/modals/postModal.php' ?>
+
+    <?php include 'assets/inc/footer.php' ?>
