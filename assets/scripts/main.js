@@ -322,3 +322,4 @@ function makePost(){
 function closePostPresetModal(){
 	document.querySelector('#postPresetsModal').style.display = 'none';
 }
+
