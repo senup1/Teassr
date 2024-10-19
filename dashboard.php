@@ -76,15 +76,15 @@
 						</li>
 						<li class="postItem">
 							<div class="postItemContent" data-user="MysticForge">
-								<img class="postImg" src="assets/imgs/ppl/ppl9.png">
-								<p class="postTitle">relaxing in the park</p>
+								<img class="postImg" src="assets/imgs/ppl/ppl12.png">
+								<p class="postTitle">my trip to the mountains this weekend</p>
 								<button class="postButton" onclick="postClick(this)"></button>
 							</div>
 						</li>
 						<li class="postItem">
 							<div class="postItemContent" data-user="SolarWanderer">
-								<img class="postImg" src="assets/imgs/ppl/ppl10.png">
-								<p class="postTitle">just finished my morning run</p>
+								<img class="postImg" src="assets/imgs/ppl/ppl3.png">
+								<p class="postTitle">farming from minecraft irl</p>
 								<button class="postButton" onclick="postClick(this)"></button>
 							</div>
 						</li>
@@ -97,15 +97,15 @@
 						</li>
 						<li class="postItem">
 							<div class="postItemContent" data-user="CyberGlider">
-								<img class="postImg" src="assets/imgs/ppl/ppl12.png">
-								<p class="postTitle">my trip to the mountains this weekend</p>
+								<img class="postImg" src="assets/imgs/ppl/ppl9.png">
+								<p class="postTitle">relaxing in the park</p>
 								<button class="postButton" onclick="postClick(this)"></button>
 							</div>
 						</li>
 						<li class="postItem">
 							<div class="postItemContent" data-user="EmberVortex">
-								<img class="postImg" src="assets/imgs/ppl/ppl3.png">
-								<p class="postTitle">farming from minecraft irl</p>
+								<img class="postImg" src="assets/imgs/ppl/ppl10.png">
+								<p class="postTitle">just finished my morning run</p>
 								<button class="postButton" onclick="postClick(this)"></button>
 							</div>
 						</li>
