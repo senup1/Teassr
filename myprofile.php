@@ -18,6 +18,27 @@
     $conn->close();
 ?>
 
+<!-- below php is for radio buttons for preselected image selection -->
+<?php
+    
+    if($_SERVER['REQUEST_METHOD'] == 'POST') {
+        $fetchedTitle = '';
+        $fetchedSRC = '';
+        if(isset($_POST['postImage'])){
+            if(isset($_POST['presetPostTitle'])){
+                $fetchedTitle = $_POST['presetPostTitle'];
+                $fetchedSRC = $_POST['postImage'];
+                array_unshift($_SESSION['createdPosts'], $fetchedSRC);
+            }
+            else{
+                $fetchedSRC = $_POST['postImage'];
+                array_unshift($_SESSION['createdPosts'], $fetchedSRC);
+            }
+        }
+    }
+    
+?>
+
 <title>My Teassr Profile</title>
 </head>
 
@@ -40,9 +61,14 @@
             </div>
             <div class="myProfileItem">
                 <ul class="myProfilePosts">
-                    <?php
-                        //just have to add the posts here (ill do this -ss)
-                    ?>
+                    <?php foreach ($_SESSION['createdPosts'] as $post): ?>
+                        <li class="myProfilePost">
+                            <div>
+                                <img class="accountPostImage" src="<?php echo $post ?>">
+                                <button class="accountPostButton" onclick="accountPostClick(this)"></button>
+                            </div>
+                        </li>
+                    <?php endforeach; ?>
                     <li class="myProfilePost">
                         <div>
                             <img class="accountPostImage" src="assets/imgs/ppl/ppl4.png">
@@ -120,7 +146,7 @@
             </div>
         </div>
         <div id="makePost">
-            <button onclick="makePost()">Post &plus;</button>
+            <button onclick="makePost()">New Teass &plus;</button>
         </div>
     </section>
 

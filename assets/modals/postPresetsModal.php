@@ -1,25 +1,35 @@
 <div id="postPresetsModal">
     <div class="postPresetModalContent">
         <span class="closePostModal" onclick="closePostPresetModal()">&times;</span>
-        <div id="postPresetHeader">New Post</div>
-        <input id="titlePresetPost" type="text" placeholder="Enter a title for your post">
+        <div id="postPresetHeader">New Teass</div>
+        <input form="postPresetOptions" name="presetPostTitle" id="titlePresetPost" type="text" placeholder="Enter a title for your teass">
         <form method="POST" id="postPresetOptions">
-            
             <div class="postPresetOption">
+                <input onclick="presetImageSelected(this)" name="postImage" type="radio" value="../assets/imgs/ppl/ppl1.png">
                 <img src="../assets/imgs/ppl/ppl1.png">
-                <input name="postImage" type="radio" value="test1">
             </div>
             <div class="postPresetOption">
-                <input name="postImage" type="radio" value="test2">
+                <input onclick="presetImageSelected(this)" name="postImage" type="radio" value="../assets/imgs/ppl/ppl2.png">
+                <img src="../assets/imgs/ppl/ppl2.png">
             </div>
             <div class="postPresetOption">
-                <input name="postImage" type="radio" value="test3">
+                <input onclick="presetImageSelected(this)" name="postImage" type="radio" value="../assets/imgs/ppl/ppl3.png">
+                <img src="../assets/imgs/ppl/ppl3.png">
             </div>
-            
-<!-- we just have to include a few inputs of type checkbox and use their given features to
- have one of however many images selected and submitted and then we'll be done (ill do this unless
- you want to -ss -->
+            <div class="postPresetOption">
+                <input onclick="presetImageSelected(this)" name="postImage" type="radio" value="../assets/imgs/ppl/ppl4.png">
+                <img src="../assets/imgs/ppl/ppl4.png">
+            </div>
+            <div class="postPresetOption">
+                <input onclick="presetImageSelected(this)" name="postImage" type="radio" value="../assets/imgs/ppl/ppl5.png">
+                <img src="../assets/imgs/ppl/ppl5.png">
+            </div>
+            <div class="postPresetOption">
+                <input onclick="presetImageSelected(this)" name="postImage" type="radio" value="../assets/imgs/ppl/ppl6.png">
+                <img src="../assets/imgs/ppl/ppl6.png">
+            </div>
+            <button id="postPresetButton" type="button">Post</button>
         </form>
     </div>
-    <button class="postPresetsModalClose" onclick="closePostPresetModal()"></button>
+    <button class="postPresetsModalClose" onclick="closePostPresetModal()" disabled></button>
 </div>

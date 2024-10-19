@@ -323,3 +323,10 @@ function closePostPresetModal(){
 	document.querySelector('#postPresetsModal').style.display = 'none';
 }
 
+
+/* make submit button appear and function when preselected image is selected */
+function presetImageSelected(button){
+	let submitButton = button.parentElement.parentElement.children[6];
+	submitButton.type="submit";
+	submitButton.style.display="block";
+}

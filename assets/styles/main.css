@@ -1422,6 +1422,15 @@ textarea:focus {
 	padding: none;
 	border-radius: 0px;
 }
+#postPresetsModal .postPresetModalContent #postPresetButton{
+	position: absolute;
+	bottom: 8%;
+	right: 2.2%;
+	width: 100px;
+	height: 40px;
+	display: none;
+
+}
 #postPresetsModal .postPresetModalContent #postPresetHeader{
 	font-size: 20px;
 	margin-bottom: 40px;
@@ -1429,6 +1438,7 @@ textarea:focus {
 #postPresetsModal .postPresetModalContent #titlePresetPost{
 	padding: 6px;
 	border-radius: 8px;
+	width: 200px;
 	border: none;
 	border: 1px solid #ffffff;
 	background: transparent;
@@ -1440,9 +1450,11 @@ textarea:focus {
 #postPresetsModal .postPresetModalContent{
 	background-color: var(--mainBackgroundColor);
 	margin: auto;
+	margin-top: 20px;
 	padding: 20px;
 	border-radius: 8px;
-	height: 98%;
+	height: 86%;
+	min-height: 100px;
 	width: 56%;
 	display: flex;
 	flex-direction: column;
@@ -1453,20 +1465,26 @@ textarea:focus {
 }
 #postPresetsModal .postPresetModalContent #postPresetOptions{
 	display: flex;
-	width: 74%;
-	height: 60%;
-	border: 1px solid pink;
+	width: 76%;
+	height: 78%;
 	display: flex;
 	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
 }
 #postPresetsModal .postPresetModalContent #postPresetOptions .postPresetOption{
-	width: 200px;
-	height: 200px;
-	border-radius: 0px;
-	border: 1px solid purple;
+	width: 250px;
+	height: 250px;
+	border-radius: 8px;
 	position: relative;
 	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 
+}
+#postPresetsModal .postPresetModalContent #postPresetOptions .postPresetOption img{
+	height: 130%;
 }
 #postPresetsModal .postPresetModalContent #postPresetOptions .postPresetOption input{
 	width: 100%;
@@ -1477,6 +1495,17 @@ textarea:focus {
 	left: 0;
 	z-index: 998;
 	opacity: 0;
+}
+#postPresetsModal .postPresetModalContent #postPresetOptions .postPresetOption input[type="radio"]:checked + img{
+	height: 100%;
+
+}
+#postPresetsModal .postPresetModalContent #postPresetOptions .postPresetOption:has(input[type="radio"]:checked){
+	border: 4px solid #ffffff;
+
+}
+#postPresetsModal .postPresetModalContent #postPresetOptions .postPresetOption:hover img{
+	height: 120%;
 }
 #postPresetsModal .postPresetModalContent .postModalItem:nth-of-type(1){
 	flex: 1 5 30px;

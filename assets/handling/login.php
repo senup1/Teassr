@@ -44,6 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 				$_SESSION['username'] = $fetchedUsername;
 				$_SESSION['logged'] = true;
 				$_SESSION['numMessages'] = 0;
+				$_SESSION['createdPosts'] = [];
 				header('Location: ../../dashboard.php');
 				exit();
 			} else {

@@ -63,6 +63,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 			header('Location: ../../dashboard.php');
 			$_SESSION['username'] = $username;
 			$_SESSION['numMessages'] = 0;
+			$_SESSION['logged'] = true;
+			$_SESSION['createdPosts'] = [];
 			exit();
 		}
 		else{

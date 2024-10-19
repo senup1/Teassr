@@ -3,6 +3,7 @@
 		unset($_SESSION['username']);
 		unset($_SESSION['logged']);
 		unset($_SESSION['numMessages']);
+		unset($_SESSION['logged']);
 	}
 ?>
 <nav id="nav">
