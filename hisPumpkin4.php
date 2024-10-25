@@ -18,7 +18,7 @@
                 <p class="accountUsername">hisPumpkin4</p>
             </div>
             <div class="accountItem">
-                <p class="accountBio">bio goes here and there will be quite a bit of text potentially.</p>
+                <p class="accountBio">Fall vibes all year round! Obsessed with everything cozy, from pumpkin spice lattes to Halloween decorations. I’m all about autumn aesthetics, comfy sweaters, and spooky season feels. Whether it’s watching horror movies or enjoying a crisp evening, I’m always embracing that pumpkin life.</p>
             </div>
             <div class="accountItem">
                 <ul class="accountPosts">

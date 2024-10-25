@@ -18,7 +18,7 @@
                 <p class="accountUsername">bokchoy1.uwu</p>
             </div>
             <div class="accountItem">
-                <p class="accountBio">bio goes here and there will be quite a bit of text potentially.</p>
+                <p class="accountBio">Lover of all things wholesome and cute! Big fan of cozy vibes, whether it’s through comfort food like bok choy dishes or indulging in my favorite shows and games. You’ll usually find me embracing the uwu energy, appreciating the little things in life, and spreading positive vibes wherever I go.</p>
             </div>
             <div class="accountItem">
                 <ul class="accountPosts">

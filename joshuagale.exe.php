@@ -18,7 +18,7 @@
                 <p class="accountUsername">joshuagale.exe</p>
             </div>
             <div class="accountItem">
-                <p class="accountBio">bio goes here and there will be quite a bit of text potentially.</p>
+                <p class="accountBio">Just your friendly neighborhood tech enthusiast! I love exploring all things digital, from coding to gaming. Always on the lookout for new gadgets and software to try out. When I’m not tinkering with tech, you can find me enjoying some good music or diving into a captivating book. Let’s connect and geek out together!</p>
             </div>
             <div class="accountItem">
                 <ul class="accountPosts">

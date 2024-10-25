@@ -18,7 +18,7 @@
                 <p class="accountUsername">animelover2000</p>
             </div>
             <div class="accountItem">
-                <p class="accountBio">bio goes here and there will be quite a bit of text potentially.</p>
+                <p class="accountBio">Passionate anime fan born in 2000. I love exploring all kinds of genres, from action-packed shonen to heartwarming slice-of-life. Binge-watching new series, sharing thoughts with fellow fans, and keeping up with the latest in Japanese pop culture are some of my favorite things to do. Anime isn't just entertainment—it's a way of life!</p>
             </div>
             <div class="accountItem">
                 <ul class="accountPosts">

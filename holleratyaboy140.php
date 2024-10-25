@@ -18,7 +18,7 @@
                 <p class="accountUsername">holleratyaboy140</p>
             </div>
             <div class="accountItem">
-                <p class="accountBio">bio goes here and there will be quite a bit of text potentially.</p>
+                <p class="accountBio">Just a chill person who loves connecting with others! I enjoy sharing laughs, good vibes, and relatable content. Whether it's music, memes, or just chatting about life, I'm all about keeping it fun and friendly. Hit me up, and let’s vibe together!</p>
             </div>
             <div class="accountItem">
                 <ul class="accountPosts">
