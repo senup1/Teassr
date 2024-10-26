@@ -4,15 +4,16 @@
 		unset($_SESSION['logged']);
 		unset($_SESSION['numMessages']);
 		unset($_SESSION['logged']);
+		header('Location: index.php');
 	}
 ?>
 <nav id="nav">
-	<a href="../../../../../dashboard.php">
+	<a  <?= isset($_SESSION['logged']) ? 'href="../../../../../dashboard.php"' : 'href="../../../../../index.php"'; ?>>
 		<img class="logo" src="../../../../assets/imgs/bow1-removebg-inverted.png">
 	</a>
-	<a href="messages.php"><img id="messagesIcon" src="../../../../../assets/imgs/message.png"></a>
+	<a href="messages.php" <?= isset($_SESSION['logged']) ? 'style="display: block;"' : 'style="display: none"'; ?>><img id="messagesIcon" src="../../../../../assets/imgs/message.png"></a>
 	<div class="container">
-		<div class="menuButton">
+		<div class="menuButton" <?= isset($_SESSION['logged']) ? 'style="display: block;"' : 'style="display: none"'; ?>>
 			<button onclick="menuActions()"></button>
 		</div>
 		<div class="DNItems">
