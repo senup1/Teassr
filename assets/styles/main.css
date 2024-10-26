@@ -1,7 +1,7 @@
 /*Global*/
 :root {
-	--mainButtonColor: #1e90ff;
-	--mainBackgroundColor: #20252e;
+	--mainButtonColor: #00ADB5;
+	--mainBackgroundColor: #1E1E2F;
 }
 
 * {
@@ -49,11 +49,13 @@ button {
 	color: #ffffff;
 	border-radius: 20px;
 	padding: 4px 10px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
 
 }
 
 button:hover {
-	color: #1ea0fa;
+	color: #008E91;
 }
 
 a {
@@ -63,7 +65,7 @@ a {
 }
 
 a:hover {
-	color: #1D80EC;
+	color: #008E91;
 }
 
 input {
@@ -176,7 +178,8 @@ textarea:focus {
 	width: 100%;
 	overflow-y: auto;
 }
-#dashBody #welcomeMessage{
+
+#dashBody #welcomeMessage {
 	top: 7%;
 	left: 0;
 	height: 5%;
@@ -184,7 +187,8 @@ textarea:focus {
 	position: absolute;
 
 }
-#dashBody #welcomeMessage p{
+
+#dashBody #welcomeMessage p {
 	font-size: 28px;
 	text-align: center;
 	padding-top: 5px;
@@ -228,7 +232,8 @@ textarea:focus {
 #postSection {
 	height: 100%;
 }
-#postSection .container .postItem .postItemContent .postTitle{
+
+#postSection .container .postItem .postItemContent .postTitle {
 	color: gray;
 	font-size: 20px;
 	font-weight: normal;
@@ -240,7 +245,8 @@ textarea:focus {
 	font-size: 20px;
 	font-weight: normal;
 }
-#postSection .container .postItem:hover{
+
+#postSection .container .postItem:hover {
 	/*filter: drop-shadow(30px 10px 4px #4444dd);*/
 	filter: drop-shadow(40px 40px 40px #000000);
 	z-index: 998;
@@ -269,7 +275,7 @@ textarea:focus {
 	display: inline-block;
 }
 
-#postSection .container .postItem .postItemContent .postButton{
+#postSection .container .postItem .postItemContent .postButton {
 	padding: 0;
 	border-radius: 10px;
 	border: none;
@@ -315,7 +321,7 @@ textarea:focus {
 	justify-content: start;
 }
 
-#suggestSection .container .suggestItemButton{
+#suggestSection .container .suggestItemButton {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -411,6 +417,10 @@ textarea:focus {
 	font-size: 16px;
 }
 
+#aboutPage .container .APItem {
+	color: lavender;
+}
+
 /*FAQ page*/
 #faqPage {
 	height: 86%;
@@ -430,6 +440,7 @@ textarea:focus {
 #faqPage .container .faqItem {
 	width: 100%;
 	margin-top: 40px;
+	color: lavender;
 }
 
 #faqPage .container .faqItem li {
@@ -439,10 +450,12 @@ textarea:focus {
 #faqPage .container .faqItem #faqTitle {
 	font-size: 34px;
 	font-weight: bold;
+	color: lavender;
 }
 
 #faqPage .container .faqItem .faqQuestion {
 	font-size: 22px;
+	color: lightpink;
 }
 
 /*contact page*/
@@ -610,7 +623,8 @@ textarea:focus {
 	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 	background-color: rgba(255, 255, 255, 0.1);
 }
-#dmca .container .dmcaItem:nth-of-type(7){
+
+#dmca .container .dmcaItem:nth-of-type(7) {
 	width: 100%;
 }
 
@@ -635,13 +649,14 @@ textarea:focus {
 }
 
 /*settings page*/
-#settings{
+#settings {
 	width: 100%;
 	height: 86%;
 	display: flex;
 	flex-direction: column;
 }
-#settings .container{
+
+#settings .container {
 	padding-top: 20px;
 	width: 70%;
 	height: 100%;
@@ -650,26 +665,31 @@ textarea:focus {
 	align-items: center;
 
 }
-#settings .container  .settingsItem{
+
+#settings .container .settingsItem {
 	margin-bottom: 60px;
 	display: flex;
 	flex-direction: column;
 }
-#settings .container .settingsItem #settingsImg{
+
+#settings .container .settingsItem #settingsImg {
 	height: 120px;
 	width: 120px;
 	border-radius: 50%;
 }
-#settings .container  .settingsItem .settingsSubItem{
+
+#settings .container .settingsItem .settingsSubItem {
 	margin-top: 40px;
 	display: flex;
 	align-items: center;
 }
-#settings .container  .settingsItem .settingsSubItem button{
+
+#settings .container .settingsItem .settingsSubItem button {
 	height: 28px;
 	margin-left: 20px;
 }
-#settings .container .settingsItem .settingsSubItem input{
+
+#settings .container .settingsItem .settingsSubItem input {
 	width: 260px;
 	background: transparent;
 	font-size: 18px;
@@ -678,6 +698,7 @@ textarea:focus {
 	padding: 9px;
 	color: #ffffff;
 }
+
 #settings .container .settingsItem .settingsSubItem textarea {
 	padding: 9px;
 	width: 260px;
@@ -688,41 +709,47 @@ textarea:focus {
 	color: #ffffff;
 	resize: none;
 }
-#settings .container  .settingsItem .settingsTitle{
+
+#settings .container .settingsItem .settingsTitle {
 	font-size: 32px;
 	text-align: center;
 }
 
 /*error page*/
-#errorPage{
+#errorPage {
 	width: 100%;
 	height: 86%;
 }
-#errorPage .container{
+
+#errorPage .container {
 	height: 100%;
 	width: 100%;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 }
-#errorPage .container .errorItem{
+
+#errorPage .container .errorItem {
 	margin-top: 30px;
 }
-#errorPage .container #errorTitle{
+
+#errorPage .container #errorTitle {
 	margin-top: 40px;
 	font-size: 30px;
 }
-#errorPage .container #errorInfo{
+
+#errorPage .container #errorInfo {
 	font-size: 20px;
 }
 
 /*account page*/
-.accountPage{
+.accountPage {
 	width: 100%;
 	height: 86%;
 
 }
-.accountPage .container{
+
+.accountPage .container {
 	padding: 15px;
 	width: 60%;
 	height: 100%;
@@ -730,18 +757,22 @@ textarea:focus {
 	flex-direction: column;
 
 }
-.accountPage .accountUsername{
+
+.accountPage .accountUsername {
 	font-size: 20px;
 }
-.accountPage .container .accountItem{
+
+.accountPage .container .accountItem {
 	margin-bottom: 10px;
 }
-.accountPage .container .accountItem:nth-of-type(4){
+
+.accountPage .container .accountItem:nth-of-type(4) {
 	align-self: center;
 	width: 90%;
 	min-width: 280px;
 }
-.accountPage .container .accountItem .accountPosts{
+
+.accountPage .container .accountItem .accountPosts {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -749,21 +780,25 @@ textarea:focus {
 	overflow-y: auto;
 	margin-bottom: 200px;
 }
-.accountPage .container .accountItem .accountPosts .accountPost{
+
+.accountPage .container .accountItem .accountPosts .accountPost {
 	min-width: 280px;
 	min-height: 280px;
 	width: 280px;
 	height: 280px;
 	position: relative;
 }
-.accountPage .container .accountItem .accountPosts .accountPost:hover img{
+
+.accountPage .container .accountItem .accountPosts .accountPost:hover img {
 	height: 320px;
 }
-.accountPage .container .accountItem .accountPosts .accountPost:hover{
+
+.accountPage .container .accountItem .accountPosts .accountPost:hover {
 	filter: drop-shadow(4px 4px 6px #000000);
 	z-index: 998;
 }
-.accountPage .container .accountItem .accountPosts .accountPost .accountPostButton{
+
+.accountPage .container .accountItem .accountPosts .accountPost .accountPostButton {
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -774,10 +809,12 @@ textarea:focus {
 	z-index: 1;
 	background-color: transparent;
 }
-.accountPage .container .accountItem .accountPosts .accountPost img{
+
+.accountPage .container .accountItem .accountPosts .accountPost img {
 	height: 350px;
 }
-.accountPage .container .accountItem .accountPosts .accountPost div{
+
+.accountPage .container .accountItem .accountPosts .accountPost div {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -786,7 +823,8 @@ textarea:focus {
 	overflow: hidden;
 	border: 1px solid var(--mainBackgroundColor);
 }
-.accountPage .container .accountItem .accountPFP{
+
+.accountPage .container .accountItem .accountPFP {
 	height: 160px;
 	max-width: 160px;
 	max-height: 160px;
@@ -795,12 +833,13 @@ textarea:focus {
 
 /*my profile page*/
 /*account page*/
-.myProfile{
+.myProfile {
 	width: 100%;
 	height: 86%;
 
 }
-.myProfile .container{
+
+.myProfile .container {
 	padding: 15px;
 	width: 60%;
 	height: 100%;
@@ -808,7 +847,8 @@ textarea:focus {
 	flex-direction: column;
 
 }
-.myProfile #makePost{
+
+.myProfile #makePost {
 	position: fixed;
 	bottom: 18%;
 	right: 8%;
@@ -817,24 +857,29 @@ textarea:focus {
 	min-height: 40px;
 	min-width: 120px;
 
-	
+
 }
-.myProfile #makePost button{
+
+.myProfile #makePost button {
 	width: 100%;
 	height: 100%;
 }
-.myProfile .accountUsername{
+
+.myProfile .accountUsername {
 	font-size: 20px;
 }
-.myProfile .container .myProfileItem{
+
+.myProfile .container .myProfileItem {
 	margin-bottom: 10px;
 }
-.myProfile .container .myProfileItem:nth-of-type(4){
+
+.myProfile .container .myProfileItem:nth-of-type(4) {
 	align-self: center;
 	width: 90%;
 	min-width: 280px;
 }
-.myProfile .container .myProfileItem .myProfilePosts{
+
+.myProfile .container .myProfileItem .myProfilePosts {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -842,21 +887,25 @@ textarea:focus {
 	overflow-y: auto;
 	margin-bottom: 200px;
 }
-.myProfile .container .myProfileItem .myProfilePosts .myProfilePost{
+
+.myProfile .container .myProfileItem .myProfilePosts .myProfilePost {
 	min-width: 280px;
 	min-height: 280px;
 	width: 280px;
 	height: 280px;
 	position: relative;
 }
-.myProfile .container .myProfileItem .myProfilePosts .myProfilePost:hover img{
+
+.myProfile .container .myProfileItem .myProfilePosts .myProfilePost:hover img {
 	height: 320px;
 }
-.myProfile .container .myProfileItem .myProfilePosts .myProfilePost:hover{
+
+.myProfile .container .myProfileItem .myProfilePosts .myProfilePost:hover {
 	filter: drop-shadow(4px 4px 6px #000000);
 	z-index: 998;
 }
-.myProfile .container .myProfileItem .myProfilePosts .myProfilePost .accountPostButton{
+
+.myProfile .container .myProfileItem .myProfilePosts .myProfilePost .accountPostButton {
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -867,10 +916,12 @@ textarea:focus {
 	z-index: 1;
 	background-color: transparent;
 }
-.myProfile .container .myProfileItem .myProfilePosts .myProfilePost img{
+
+.myProfile .container .myProfileItem .myProfilePosts .myProfilePost img {
 	height: 350px;
 }
-.myProfile .container .myProfileItem .myProfilePosts .myProfilePost div{
+
+.myProfile .container .myProfileItem .myProfilePosts .myProfilePost div {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -879,7 +930,8 @@ textarea:focus {
 	overflow: hidden;
 	border: 1px solid var(--mainBackgroundColor);
 }
-.myProfile .container .myProfileItem .accountPFP{
+
+.myProfile .container .myProfileItem .accountPFP {
 	height: 160px;
 	max-width: 160px;
 	max-height: 160px;
@@ -887,35 +939,41 @@ textarea:focus {
 }
 
 /*messages page*/
-#messages{
+#messages {
 	height: 86%;
 	width: 100%;
 }
-#messages .container{
+
+#messages .container {
 	height: 100%;
 	width: 62%;
 	min-width: 600px;
 	display: flex;
 	overflow-y: auto;
 }
-#messages .container .messagesItem{
+
+#messages .container .messagesItem {
 	height: 100%;
 	min-height: 600px;
 	border-right: 1px solid #ffffff;
 }
-#messages .container .messagesItem:nth-of-type(1){
+
+#messages .container .messagesItem:nth-of-type(1) {
 	flex: 3 0 270px;
 }
-#messages .container .messagesItem:nth-of-type(2){
+
+#messages .container .messagesItem:nth-of-type(2) {
 	flex: 7 0 540px;
 }
-#messages .container .messagesItem #friendList{
+
+#messages .container .messagesItem #friendList {
 	display: flex;
 	flex-direction: column;
 	height: 100%;
 	min-width: 270px;
 }
-#messages .container .messagesItem #friendList .friendItem .conversationSelection{
+
+#messages .container .messagesItem #friendList .friendItem .conversationSelection {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -925,7 +983,8 @@ textarea:focus {
 	background-color: transparent;
 
 }
-#messages .container .messagesItem #friendList .friendItem{
+
+#messages .container .messagesItem #friendList .friendItem {
 	height: 10%;
 	max-height: 80px;
 	display: flex;
@@ -936,10 +995,12 @@ textarea:focus {
 	min-height: 58px;
 	position: relative;
 }
-#messages .container .messagesItem #friendList .friendItem:nth-of-type(1){
+
+#messages .container .messagesItem #friendList .friendItem:nth-of-type(1) {
 	background-color: rgb(83, 83, 83);
 }
-#messages .container .messagesItem #friendList .friendItem .backgroundFix{
+
+#messages .container .messagesItem #friendList .friendItem .backgroundFix {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -948,24 +1009,29 @@ textarea:focus {
 	z-index: -999;
 	border-radius: 12px;
 }
-#messages .container .messagesItem #friendList .friendItem:hover .backgroundFix{
+
+#messages .container .messagesItem #friendList .friendItem:hover .backgroundFix {
 	background-color: rgb(83, 83, 83);
 }
-#messages .container .messagesItem #friendList .friendItem .friendSubItem .messageItemUsername{
+
+#messages .container .messagesItem #friendList .friendItem .friendSubItem .messageItemUsername {
 	font-size: 17px;
 }
-#messages .container .messagesItem #friendList .friendItem .friendSubItem .lastMessage{
+
+#messages .container .messagesItem #friendList .friendItem .friendSubItem .lastMessage {
 	font-size: 13px;
 	margin-top: 6px;
 }
 
-#messages .container .messagesItem #friendList .friendItem .friendSubItem:nth-of-type(1){
+#messages .container .messagesItem #friendList .friendItem .friendSubItem:nth-of-type(1) {
 	flex: 1 0 50px;
 }
-#messages .container .messagesItem #friendList .friendItem .friendSubItem:nth-of-type(2){
+
+#messages .container .messagesItem #friendList .friendItem .friendSubItem:nth-of-type(2) {
 	flex: 9 0 220px;
 }
-#messages .container .messagesItem #friendList .friendItem .messageItemPFP{
+
+#messages .container .messagesItem #friendList .friendItem .messageItemPFP {
 	height: 50px;
 	width: 50px;
 	max-height: 50px;
@@ -996,7 +1062,8 @@ textarea:focus {
 	position: fixed;
 
 }
-#loginModal #loginModalOffClick{
+
+#loginModal #loginModalOffClick {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -1007,7 +1074,8 @@ textarea:focus {
 	border: none;
 	background-color: transparent;
 }
-#loginModal .container #LMCloseButton{
+
+#loginModal .container #LMCloseButton {
 	font-size: 25px;
 }
 
@@ -1110,7 +1178,8 @@ textarea:focus {
 	position: fixed;
 
 }
-#signUpModal #signUpModalOffClick{
+
+#signUpModal #signUpModalOffClick {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -1121,7 +1190,8 @@ textarea:focus {
 	border: none;
 	background-color: transparent;
 }
-#signUpModal .container #SUMCloseButton{
+
+#signUpModal .container #SUMCloseButton {
 	font-size: 25px;
 }
 
@@ -1214,7 +1284,7 @@ textarea:focus {
 }
 
 /*post Modal*/
-#postModal{
+#postModal {
 	display: none;
 	position: fixed;
 	z-index: 999;
@@ -1223,10 +1293,11 @@ textarea:focus {
 	top: 0;
 	width: 100%;
 	height: 92%;
-	background-color: rgba(0,0,0,0.8);
+	background-color: rgba(0, 0, 0, 0.8);
 
 }
-#postModal .postModalButton{
+
+#postModal .postModalButton {
 	position: fixed;
 	width: 100%;
 	height: 100%;
@@ -1238,7 +1309,8 @@ textarea:focus {
 	padding: none;
 	border-radius: 0px;
 }
-#postModal .postModalContent{
+
+#postModal .postModalContent {
 	background-color: var(--mainBackgroundColor);
 	margin: auto;
 	padding: 20px;
@@ -1252,13 +1324,16 @@ textarea:focus {
 	position: relative;
 
 }
-#postModal .postModalContent .postModalItem:nth-of-type(1){
+
+#postModal .postModalContent .postModalItem:nth-of-type(1) {
 	flex: 1 5 30px;
 }
-#postModal .postModalContent .postModalItem:nth-of-type(2){
+
+#postModal .postModalContent .postModalItem:nth-of-type(2) {
 	flex: 1 5 20px;
 }
-#postModal .postModalContent .postModalItem:nth-of-type(3){
+
+#postModal .postModalContent .postModalItem:nth-of-type(3) {
 	flex: 8 1 400px;
 	display: flex;
 	justify-content: center;
@@ -1266,7 +1341,7 @@ textarea:focus {
 	width: 100%;
 }
 
-.closePostModal{
+.closePostModal {
 	color: #ffffff;
 	font-size: 30px;
 	font-weight: bold;
@@ -1274,15 +1349,19 @@ textarea:focus {
 	top: 2%;
 	right: 2%;
 }
-#postModalTitle{
+
+#postModalTitle {
 	font-size: 20px;
 }
-.closePostModal:hover, .closePostModal:focus{
+
+.closePostModal:hover,
+.closePostModal:focus {
 	color: black;
 	text-decoration: none;
 	cursor: pointer;
 }
-#postModal img{
+
+#postModal img {
 	max-height: 630px;
 	max-width: 1000px;
 	border-radius: 10px;
@@ -1290,11 +1369,12 @@ textarea:focus {
 }
 
 /*message modal*/
-#convSection{
+#convSection {
 	height: 100%;
 	width: 100%;
 }
-#convSection #convTop{
+
+#convSection #convTop {
 	min-height: 60px;
 	display: flex;
 	align-items: center;
@@ -1303,7 +1383,8 @@ textarea:focus {
 	width: 100%;
 	border-bottom: 1px solid #ffffff;
 }
-#convSection #convMiddle{
+
+#convSection #convMiddle {
 	height: 84%;
 	padding: 12px 22px;
 	width: 100%;
@@ -1314,11 +1395,13 @@ textarea:focus {
 	scrollbar-width: thin;
 	/* for Firefox */
 }
-#convSection #convBottom{
+
+#convSection #convBottom {
 	width: 100%;
 	height: 8%;
 }
-#convSection #convBottom #messageForm{
+
+#convSection #convBottom #messageForm {
 	width: 100%;
 	height: 100%;
 	display: flex;
@@ -1326,7 +1409,8 @@ textarea:focus {
 	align-items: center;
 	position: relative;
 }
-#convSection #convBottom #messageForm button{
+
+#convSection #convBottom #messageForm button {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -1334,7 +1418,8 @@ textarea:focus {
 	height: 100%;
 	padding: 0;
 }
-#convSection #convBottom #messageForm #messageField{
+
+#convSection #convBottom #messageForm #messageField {
 	border: none;
 	border-radius: 16px;
 	border: 1px solid #ffffff;
@@ -1346,7 +1431,8 @@ textarea:focus {
 	font-size: 16px;
 	background-color: transparent;
 }
-#convSection #convBottom #messageForm #sendButtonHolder{
+
+#convSection #convBottom #messageForm #sendButtonHolder {
 	position: relative;
 	border: none;
 	border-radius: 15px;
@@ -1358,20 +1444,23 @@ textarea:focus {
 	font-size: 16px;
 	background-color: transparent;
 }
-#convSection #convTop .convImg{
+
+#convSection #convTop .convImg {
 	max-height: 45px;
 	max-width: 45px;
 	border-radius: 50%;
 	margin-right: 10px;
 }
-#convSection #convMiddle #conversation .convItem{
+
+#convSection #convMiddle #conversation .convItem {
 	min-height: 22px;
 	width: 100%;
 	margin: 20px 0;
 	display: flex;
 	align-items: end;
 }
-#convSection #convMiddle #conversation .convItem .convSubItem{
+
+#convSection #convMiddle #conversation .convItem .convSubItem {
 	height: 100%;
 	padding: 8px;
 	max-width: 43%;
@@ -1380,14 +1469,17 @@ textarea:focus {
 	display: inline-block;
 	overflow-wrap: break-word;
 }
-#convSection #convMiddle #conversation .convItem:nth-child(even) .convSubItem{
+
+#convSection #convMiddle #conversation .convItem:nth-child(even) .convSubItem {
 	border: 1px solid blue;
 }
-#convSection #convMiddle #conversation .convItem:nth-child(even){
+
+#convSection #convMiddle #conversation .convItem:nth-child(even) {
 	justify-content: end;
 	align-items: center;
 }
-#convSection #convMiddle #conversation .convItem .messagePFP{
+
+#convSection #convMiddle #conversation .convItem .messagePFP {
 	width: 28px;
 	height: 28px;
 	max-height: 28px;
@@ -1398,7 +1490,7 @@ textarea:focus {
 }
 
 /*post presets modal*/
-#postPresetsModal{
+#postPresetsModal {
 	display: none;
 	position: fixed;
 	z-index: 999;
@@ -1407,10 +1499,11 @@ textarea:focus {
 	top: 0;
 	width: 100%;
 	height: 92%;
-	background-color: rgba(0,0,0,0.8);
+	background-color: rgba(0, 0, 0, 0.8);
 
 }
-#postPresetsModal .postPresetsModalClose{
+
+#postPresetsModal .postPresetsModalClose {
 	position: fixed;
 	width: 100%;
 	height: 100%;
@@ -1422,7 +1515,8 @@ textarea:focus {
 	padding: none;
 	border-radius: 0px;
 }
-#postPresetsModal .postPresetModalContent #postPresetButton{
+
+#postPresetsModal .postPresetModalContent #postPresetButton {
 	position: absolute;
 	bottom: 8%;
 	right: 2.2%;
@@ -1431,11 +1525,13 @@ textarea:focus {
 	display: none;
 
 }
-#postPresetsModal .postPresetModalContent #postPresetHeader{
+
+#postPresetsModal .postPresetModalContent #postPresetHeader {
 	font-size: 20px;
 	margin-bottom: 40px;
 }
-#postPresetsModal .postPresetModalContent #titlePresetPost{
+
+#postPresetsModal .postPresetModalContent #titlePresetPost {
 	padding: 6px;
 	border-radius: 8px;
 	width: 200px;
@@ -1447,7 +1543,8 @@ textarea:focus {
 	font-size: 16px;
 	margin-bottom: 20px;
 }
-#postPresetsModal .postPresetModalContent{
+
+#postPresetsModal .postPresetModalContent {
 	background-color: var(--mainBackgroundColor);
 	margin: auto;
 	margin-top: 20px;
@@ -1463,7 +1560,8 @@ textarea:focus {
 	position: relative;
 
 }
-#postPresetsModal .postPresetModalContent #postPresetOptions{
+
+#postPresetsModal .postPresetModalContent #postPresetOptions {
 	display: flex;
 	width: 76%;
 	height: 78%;
@@ -1472,7 +1570,8 @@ textarea:focus {
 	align-items: center;
 	flex-wrap: wrap;
 }
-#postPresetsModal .postPresetModalContent #postPresetOptions .postPresetOption{
+
+#postPresetsModal .postPresetModalContent #postPresetOptions .postPresetOption {
 	width: 250px;
 	height: 250px;
 	border-radius: 8px;
@@ -1483,10 +1582,12 @@ textarea:focus {
 	justify-content: center;
 
 }
-#postPresetsModal .postPresetModalContent #postPresetOptions .postPresetOption img{
+
+#postPresetsModal .postPresetModalContent #postPresetOptions .postPresetOption img {
 	height: 130%;
 }
-#postPresetsModal .postPresetModalContent #postPresetOptions .postPresetOption input{
+
+#postPresetsModal .postPresetModalContent #postPresetOptions .postPresetOption input {
 	width: 100%;
 	height: 100%;
 	outline: unset;
@@ -1496,24 +1597,30 @@ textarea:focus {
 	z-index: 998;
 	opacity: 0;
 }
-#postPresetsModal .postPresetModalContent #postPresetOptions .postPresetOption input[type="radio"]:checked + img{
+
+#postPresetsModal .postPresetModalContent #postPresetOptions .postPresetOption input[type="radio"]:checked+img {
 	height: 100%;
 
 }
-#postPresetsModal .postPresetModalContent #postPresetOptions .postPresetOption:has(input[type="radio"]:checked){
+
+#postPresetsModal .postPresetModalContent #postPresetOptions .postPresetOption:has(input[type="radio"]:checked) {
 	border: 4px solid #ffffff;
 
 }
-#postPresetsModal .postPresetModalContent #postPresetOptions .postPresetOption:hover img{
+
+#postPresetsModal .postPresetModalContent #postPresetOptions .postPresetOption:hover img {
 	height: 120%;
 }
-#postPresetsModal .postPresetModalContent .postModalItem:nth-of-type(1){
+
+#postPresetsModal .postPresetModalContent .postModalItem:nth-of-type(1) {
 	flex: 1 5 30px;
 }
-#postPresetsModal .postPresetModalContent .postModalItem:nth-of-type(2){
+
+#postPresetsModal .postPresetModalContent .postModalItem:nth-of-type(2) {
 	flex: 1 5 20px;
 }
-#postPresetsModal .postPresetModalContent .postModalItem:nth-of-type(3){
+
+#postPresetsModal .postPresetModalContent .postModalItem:nth-of-type(3) {
 	flex: 8 1 400px;
 	display: flex;
 	justify-content: center;
@@ -1521,7 +1628,7 @@ textarea:focus {
 	width: 100%;
 }
 
-.closePostModal{
+.closePostModal {
 	color: #ffffff;
 	font-size: 30px;
 	font-weight: bold;
@@ -1529,15 +1636,19 @@ textarea:focus {
 	top: 2%;
 	right: 2%;
 }
-#postModalTitle{
+
+#postModalTitle {
 	font-size: 20px;
 }
-.closePostModal:hover, .closePostModal:focus{
+
+.closePostModal:hover,
+.closePostModal:focus {
 	color: black;
 	text-decoration: none;
 	cursor: pointer;
 }
-#postPresetsModal img{
+
+#postPresetsModal img {
 	max-height: 630px;
 	max-width: 1000px;
 	border-radius: 10px;
@@ -1556,7 +1667,7 @@ textarea:focus {
 	display: flex;
 	background-color: #20252e;
 	z-index: 999;
-	border-bottom: 1px solid gray;
+	border-bottom: 0.5px solid lavender;
 	min-height: 50px;
 }
 
@@ -1569,18 +1680,19 @@ textarea:focus {
 	align-items: left;
 	justify-content: center;
 }
-#nav .container .menuButton button{
+
+#nav .container .menuButton button {
 	width: 30px;
 	height: 30px;
 	background-image: url("../../../../assets/imgs/pfps/blankpfp.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-color: transparent;
 	padding: 21px;
 	border-radius: 50%;
 }
-#nav #messagesIcon{
+
+#nav #messagesIcon {
 	position: absolute;
 	right: 55px;
 	top: 20%;
@@ -1623,13 +1735,14 @@ textarea:focus {
 
 /*Footer*/
 #mainFooter {
-	border-top: 1px solid gray;
+	border-top: 0.5px solid lavender;
 	height: 8%;
 	width: 100%;
 	position: fixed;
 	bottom: 0;
 	min-height: 50px;
 	z-index: 999;
+	color: #BFA2DB;
 }
 
 #mainFooter .container {
@@ -1638,11 +1751,19 @@ textarea:focus {
 	justify-content: center;
 	align-items: center;
 	background-color: #20252e;
+
 }
 
 #mainFooter .container .footerItem {
 	margin-left: 38px;
 	font-size: 16px;
+	color: #BFA2DB;
+	transition: color 0.3s ease;
+}
+
+#mainFooter .container .footerItem:hover {
+	color: #A992C9;
+	text-decoration: underline;
 }
 
 /*Logo*/
