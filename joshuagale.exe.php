@@ -1,5 +1,11 @@
 <?php include 'assets/inc/header.php' ?>
 
+<?php
+    if(!isset($_SESSION['logged'])){
+        header('Location: index.php');
+    } 
+?>
+
 <title>Teassr | joshuagale.exe</title>
 </head>
 

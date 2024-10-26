@@ -1,6 +1,12 @@
 <?php include 'assets/inc/header.php' ?>
 
 <?php
+    if(!isset($_SESSION['logged'])){
+        header('Location: index.php');
+    } 
+?>
+
+<?php
     $fetchedBio = '';
     $username = $_SESSION['username'];
     $sql = "SELECT bio FROM userInfo WHERE username = ?";
