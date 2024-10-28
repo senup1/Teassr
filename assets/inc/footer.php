@@ -13,7 +13,7 @@
 			<a href="contactUs.php">Contact Us</a>
 		</div>
 		<div class="footerItem">
-			<a href="termsAndPrivacy.php">Terms & Privacy</a>
+			<a href="termsandprivacy.php">Terms & Privacy</a>
 		</div>
 		<div class="footerItem">
 			<a href="dmca.php">DMCA</a>
